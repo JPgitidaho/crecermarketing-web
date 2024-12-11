@@ -1,0 +1,81 @@
+  
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #2A9D8F;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #264653;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .banner {
+            background-image: url('imagen portada.svg'); /* Replace with your image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .banner h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .banner p {
+            font-size: 1.5em;
+        }
+
+        .services, .contact {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .services h2, .contact h2 {
+            margin-bottom: 20px;
+        }
+
+        .service-item {
+            margin: 20px;
+        }
+
+        .footer {
+            background-color: #264653;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        .footer a {
+            color: #2A9D8F;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    
