@@ -1,13 +1,62 @@
   
+        /* CSS HEX 
+--rose: #f72585ff;
+--grape: #7209b7ff;
+--zaffre: #3a0ca3ff;
+--neon-blue: #4361eeff;
+--vivid-sky-blue: #4cc9f0ff;
+
+CSS HSL 
+--rose: hsla(333, 93%, 56%, 1);
+--grape: hsla(276, 91%, 38%, 1);
+--zaffre: hsla(258, 86%, 34%, 1);
+--neon-blue: hsla(229, 83%, 60%, 1);
+--vivid-sky-blue: hsla(194, 85%, 62%, 1);
+
+SCSS HEX 
+$rose: #f72585ff;
+$grape: #7209b7ff;
+$zaffre: #3a0ca3ff;
+$neon-blue: #4361eeff;
+$vivid-sky-blue: #4cc9f0ff;
+
+SCSS HSL 
+$rose: hsla(333, 93%, 56%, 1);
+$grape: hsla(276, 91%, 38%, 1);
+$zaffre: hsla(258, 86%, 34%, 1);
+$neon-blue: hsla(229, 83%, 60%, 1);
+$vivid-sky-blue: hsla(194, 85%, 62%, 1);
+
+SCSS RGB 
+$rose: rgba(247, 37, 133, 1);
+$grape: rgba(114, 9, 183, 1);
+$zaffre: rgba(58, 12, 163, 1);
+$neon-blue: rgba(67, 97, 238, 1);
+$vivid-sky-blue: rgba(76, 201, 240, 1);
+
+SCSS Gradient 
+$gradient-top: linear-gradient(0deg, #f72585ff, #7209b7ff, #3a0ca3ff, #4361eeff, #4cc9f0ff);
+$gradient-right: linear-gradient(90deg, #f72585ff, #7209b7ff, #3a0ca3ff, #4361eeff, #4cc9f0ff);
+$gradient-bottom: linear-gradient(180deg, #f72585ff, #7209b7ff, #3a0ca3ff, #4361eeff, #4cc9f0ff);
+$gradient-left: linear-gradient(270deg, #f72585ff, #7209b7ff, #3a0ca3ff, #4361eeff, #4cc9f0ff);
+$gradient-top-right: linear-gradient(45deg, #f72585ff, #7209b7ff, #3a0ca3ff, #4361eeff, #4cc9f0ff);
+$gradient-bottom-right: linear-gradient(135deg, #f72585ff, #7209b7ff, #3a0ca3ff, #4361eeff, #4cc9f0ff);
+$gradient-top-left: linear-gradient(225deg, #f72585ff, #7209b7ff, #3a0ca3ff, #4361eeff, #4cc9f0ff);
+$gradient-bottom-left: linear-gradient(315deg, #f72585ff, #7209b7ff, #3a0ca3ff, #4361eeff, #4cc9f0ff);
+$gradient-radial: radial-gradient(#f72585ff, #7209b7ff, #3a0ca3ff, #4361eeff, #4cc9f0ff);
+*/       
+        
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            background: linear-gradient(45deg, #f72585ff, #4361eeff, #4cc9f0ff);
+
         }
 
         header {
-            background-color: #2A9D8F;
+           
             color: white;
             padding: 20px;
             text-align: center;
@@ -16,7 +65,7 @@
         nav {
             display: flex;
             justify-content: center;
-            background-color: #264653;
+            background-color: #3a0ca3ff;
             padding: 10px 0;
         }
 
@@ -32,34 +81,49 @@
         }
 
         .banner {
-            background-image: url('imagen portada.svg'); /* Replace with your image */
             background-size: cover;
             background-position: center;
             color: white;
             text-align: center;
             padding: 100px 20px;
+            
         }
 
         .banner h1 {
             font-size: 3em;
             margin: 0;
-        }
 
+        }
+        .hero img{
+            width:100%;
+            position: relative;
+           
+          }
         .banner p {
             font-size: 1.5em;
         }
+        
 
         .services, .contact {
             padding: 40px 20px;
             text-align: center;
+            color: white;
+
+        }
+
+        .services {
+            background-color: #4361eeff;
+
         }
 
         .services h2, .contact h2 {
             margin-bottom: 20px;
+            color: white;
         }
 
         .service-item {
             margin: 20px;
+
         }
 
         .footer {
@@ -78,4 +142,4 @@
         .footer a:hover {
             text-decoration: underline;
         }
-    
+   
