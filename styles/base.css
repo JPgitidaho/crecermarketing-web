@@ -142,4 +142,111 @@ $gradient-radial: radial-gradient(#f72585ff, #7209b7ff, #3a0ca3ff, #4361eeff, #4
         .footer a:hover {
             text-decoration: underline;
         }
-   
+   /* Estilización general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Secciones */
+.service-details {
+    padding: 3rem 1rem;
+    background-color: #fff;
+    margin: 2rem auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-details h2 {
+    color: #2A9D8F;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.service-details p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+/* Paquetes */
+.service-details .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.service-details .col-md-4 {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    max-width: 300px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.service-details .col-md-4:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.service-details h3 {
+    color: #264653;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.service-details ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 1rem 0;
+}
+
+.service-details ul li {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.service-details p strong {
+    color: #E76F51;
+    font-size: 1.2rem;
+}
+
+/* Botón */
+.service-details .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #2A9D8F;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.service-details .btn:hover {
+    background-color: #21867a;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .service-details .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-details .col-md-4 {
+        width: 90%;
+    }
+}
