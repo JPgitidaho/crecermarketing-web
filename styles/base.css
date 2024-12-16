@@ -81,24 +81,21 @@ $gradient-radial: radial-gradient(#f72585ff, #7209b7ff, #3a0ca3ff, #4361eeff, #4
         }
 
         .banner {
+            background-image: url("./imagenes/imagen portada.svg");
             background-size: cover;
             background-position: center;
             color: white;
             text-align: center;
             padding: 100px 20px;
-            
         }
+        
 
         .banner h1 {
             font-size: 3em;
             margin: 0;
 
         }
-        .hero img{
-            width:100%;
-            position: relative;
-           
-          }
+
         .banner p {
             font-size: 1.5em;
         }
@@ -238,6 +235,64 @@ body {
 .service-details .btn:hover {
     background-color: #21867a;
 }
+
+/*blog*/
+.blog-section {
+    padding: 3rem 1rem;
+    background-color: #f9f9f9;
+}
+
+.blog-section h2 {
+    font-size: 2.5rem;
+    color: #264653;
+    margin-bottom: 1rem;
+}
+
+.blog-section p {
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #264653;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.card .btn {
+    background-color: #2A9D8F;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.card .btn:hover {
+    background-color: #21867a;
+}
+
 
 /* Responsive */
 @media (max-width: 768px) {
