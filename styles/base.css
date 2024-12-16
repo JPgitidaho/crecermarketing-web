@@ -55,52 +55,93 @@ $gradient-radial: radial-gradient(#f72585ff, #7209b7ff, #3a0ca3ff, #4361eeff, #4
 
         }
 
-        header {
-           
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
 
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #3a0ca3ff;
-            padding: 10px 0;
-        }
 
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
+/* Barra de navegación */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3a0ca3ff;
+    padding: 10px 20px;
+}
 
-        nav a:hover {
-            text-decoration: underline;
-        }
+nav .logo img {
+    height: 150px;
+    max-width: 100%;
+}
 
+nav .nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+/* Enlaces */
+nav .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+nav .nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Menu Button (Hamburguesa) */
+.menu-icon {
+    display: none; /* Ocultar el menú hamburguesa en pantallas grandes */
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+    width: 30px;
+    height: 25px;
+}
+
+.menu-icon .bar {
+    background-color: white;
+    height: 4px;
+    width: 100%;
+}
+
+
+
+/* Añadir efectos de transición */
+nav .nav-links a {
+    transition: color 0.3s ease-in-out;
+}
+
+nav .nav-links a:hover {
+    color: #4cc9f0; /* Color al pasar el cursor */
+}
+
+
+        .hero {
+            position: relative; /* Permite posicionar elementos dentro de .hero */
+        }
+        
+        .hero img {
+            width: 100%; /* Imagen ocupa todo el ancho del contenedor */
+            height: auto; /* Mantiene proporción */
+        }
+        
         .banner {
-            background-image: url("./imagenes/imagen portada.svg");
-            background-size: cover;
-            background-position: center;
-            color: white;
-            text-align: center;
-            padding: 100px 20px;
+            position: absolute; /* Superpone el banner sobre la imagen del hero */
+            top: 0; /* Alinea el banner al borde superior del contenedor .hero */
+            left: 0; /* Alinea el banner al borde izquierdo */
+            width: 100%; /* El banner ocupa el ancho completo de la imagen */
+            height: 100%; /* El banner ocupa la altura completa del contenedor .hero */
+            color: white; /* Texto en blanco */
+            display: flex; /* Flexbox para centrar contenido */
+            flex-direction: column; /* Alinea texto verticalmente */
+            justify-content: center; /* Centra verticalmente */
+            align-items: center; /* Centra horizontalmente */
+            background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semi-transparente */
+            text-align: center; /* Centra el texto */
+            padding: 20px; /* Espaciado interno */
         }
         
-
-        .banner h1 {
-            font-size: 3em;
-            margin: 0;
-
-        }
-
-        .banner p {
-            font-size: 1.5em;
-        }
         
-
         .services, .contact {
             padding: 40px 20px;
             text-align: center;
@@ -191,6 +232,15 @@ body {
 .service-details .col-md-4:hover {
     transform: translateY(-10px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.service-details i {
+    color: #4cc9f0;
+    margin-bottom: 15px;
+    transition: transform 0.3s;
+}
+
+.service-details i:hover {
+    transform: scale(1.2); /* Agranda el ícono al pasar el cursor */
 }
 
 .service-details h3 {
@@ -303,5 +353,29 @@ body {
 
     .service-details .col-md-4 {
         width: 90%;
+    }
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+    nav .nav-links {
+        display: none; /* Ocultar los enlaces por defecto */
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #3a0ca3ff;
+        padding: 20px;
+        text-align: center;
+        gap: 20px;
+    }
+
+    nav .nav-links.active {
+        display: flex; /* Mostrar los enlaces cuando el menú hamburguesa se activa */
+    }
+
+    .menu-icon {
+        display: flex; /* Mostrar el menú hamburguesa */
     }
 }

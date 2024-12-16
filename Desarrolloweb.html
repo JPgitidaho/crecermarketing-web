@@ -14,16 +14,30 @@
     <link rel="stylesheet" href="./styles/base.css">
 </head>
 <body>
-    <header class="bg-dark text-white py-3">
-        <div class="container">
-            <h1 class="text-center">CRECER MARKETING</h1>
-            <nav class="text-center">
-                <a href="index.html" class="text-white mx-3">Inicio</a>
-                <a href="#portfolio" class="text-white mx-3">Portafolio</a>
-                <a href="index.html#contacto" class="text-white mx-3">Contacto</a>
+        <!-- Header -->
+        <header>
+            <nav>
+                <!-- Logo -->
+                <a href="index.html" class="logo">
+                    <img src="imagenes/CRECERMARKETINGLOGO.png" alt="Logo de Crecer Marketing" title="Inicio" />
+                </a>
+                
+                <!-- Navigation Links -->
+                <div class="nav-links">
+                    <a href="index.html">Inicio</a>
+                    <a href="servicios.html" title="Conoce nuestros servicios">Servicios</a>
+                <!--    <a href="blog.html" title="Lee nuestro blog">Blog</a>-->
+                    <a href="#contacto" title="Contáctanos">Contacto</a>
+                </div>
+        
+                <!-- Menu Button (Hamburguesa) -->
+                <div class="menu-icon" id="menu-icon">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
             </nav>
-        </div>
-    </header>
+        </header>
 
     <main>
         <section id="portfolio" class="portfolio my-5">
@@ -67,7 +81,27 @@
                      
                 </div>
             </div>
-        </section>
+        </section><!DOCTYPE html>
+       
+                <!-- Contact Section -->
+                <section id="contacto" class="contact">
+                    <h2>Contáctanos</h2>
+                    <p>Estamos listos para ayudarte a crecer. ¡Escríbenos!</p>
+                    <form
+                        action="gratitude.html" method="get">
+                        <input type="text" name="nombre" placeholder="Nombre" required style="margin: 5px; padding: 10px; width: 300px;"><br>
+                        <input type="email" name="email" placeholder="Correo Electrónico" required style="margin: 5px; padding: 10px; width: 300px;"><br>
+                        <textarea name="mensaje" placeholder="Tu mensaje" required style="margin: 5px; padding: 10px; width: 300px; height: 100px;"></textarea><br>
+                        <button type="submit" class="btn btn-success">Enviar</button>
+                    </form>
+                </section>
+        
+                
+                <!-- JSON-LD -->
+                <script type="application/ld+json"></script>
+                <script src="./scrits/menuhamburguesa.js"></script>
+        
+       
     </main>
 
     <footer class="footer bg-dark text-white text-center py-3">
