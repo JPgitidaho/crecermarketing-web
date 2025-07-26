@@ -20,8 +20,7 @@ function CTAFinal() {
       </div>
       <section className="mt-20 text-center">
   <div className="max-w-xl mx-auto bg-gradient-to-br from-[#f72585] to-[#4361ee] text-white rounded-3xl p-10 shadow-xl hover:scale-105 transition">
-    <h3 className="text-2xl font-bold mb-4">¿Quieres ver todo lo que puedo hacer?</h3>
-    <p className="text-sm mb-6">Explora mi sitio completo, conoce mis proyectos, servicios, filosofía y cómo Crecer Marketing puede ayudarte a crecer en serio.</p>
+    
     <a
       href="https://crecermarketing.vercel.app/"
       target="_blank"
