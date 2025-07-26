@@ -19,9 +19,10 @@ function Servicios() {
   return (
     <section id="servicios" className="py-20 px-6 bg-white text-gray-900">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl md:text-5xl font-extrabold mb-12 text-transparent bg-clip-text bg-gradient-to-r from-[#f72585] via-[#7209b7] to-[#4361ee]">
-  Servicios que te hacen crecer
+<h2 className="text-4xl font-bold mb-12 text-transparent bg-clip-text bg-gradient-to-r from-[#4cc9f0] via-[#7209b7] to-[#f72585]">
+  Servicios de desarrollo web y posicionamiento SEO
 </h2>
+
         <div className="grid md:grid-cols-3 gap-8">
           {servicios.map((servicio, i) => (
             <ServicioCard
