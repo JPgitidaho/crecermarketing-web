@@ -49,8 +49,8 @@ function Hero() {
     />
   </svg>
 </div>
-
     </section>
+    
   )
 }
 
