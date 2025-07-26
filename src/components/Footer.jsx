@@ -46,9 +46,9 @@ function Footer() {
           <div className="flex gap-6 text-white/80">
   {[ 
     { href: "https://wa.me/56936274715", icon: <MessageCircle /> },
-    { href: "https://instagram.com/crecermarketing", icon: <Instagram /> },
-    { href: "https://facebook.com/crecermarketing", icon: <Facebook /> },
-    { href: "https://linkedin.com/company/crecermarketing", icon: <Linkedin /> },
+    { href: "https://www.instagram.com/crecermarketing.ia/", icon: <Instagram /> },
+    { href: "https://www.facebook.com/profile.php?id=61570476448066", icon: <Facebook /> },
+    
   ].map(({ href, icon }, idx) => (
     <a
       key={idx}
