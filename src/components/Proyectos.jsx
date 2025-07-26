@@ -12,7 +12,7 @@ const proyectos = [
     descripcion: "Rediseño moderno para destacar servicios y confianza.",
   },
   {
-    imagen: "/public/assets/undraw_dashboard_p93p.png",
+    imagen: "/assets/undraw_dashboard_p93p.png",
     titulo: "Dashboard Interno",
     resultado: "+50% eficiencia operativa",
     descripcion: "Herramienta personalizada para gestión interna de datos.",

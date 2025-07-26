@@ -15,7 +15,7 @@ function Footer() {
   
         <div className="flex flex-col items-start">
           <img
-            src="/public/assets/CRECERMARKETINGLOGO.png"
+            src="/assets/CRECERMARKETINGLOGO.png"
             alt="Crecer Marketing"
             className="h-40 mb-4 w-auto"
           />

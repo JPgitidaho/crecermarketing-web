@@ -55,11 +55,11 @@ const enviarMensaje = (e) => {
     <section className="py-20 bg-white text-gray-800 px-6" id="contacto">
       <div className="max-w-2xl mx-auto text-center">
        <h2 className="text-4xl md:text-5xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-[#f72585] via-[#7209b7] to-[#4cc9f0]">
-  🤝 Hablemos
+   Hablemos
 </h2>
 
         <p className="text-lg mb-12 text-gray-600">
-          ¿Tienes un proyecto o una idea en mente? Envíame un mensaje y te responderé en menos de 24 horas.
+         🤝 ¿Tienes un proyecto o una idea en mente? Envíame un mensaje y te responderé en menos de 24 horas.
         </p>
         <form ref={form} onSubmit={enviarMensaje} className="space-y-6 text-left">
           <div>
