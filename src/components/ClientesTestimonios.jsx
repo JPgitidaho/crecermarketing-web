@@ -1,14 +1,14 @@
 const testimonios = [
   {
-    nombre: "Ana de Empresa X",
+    nombre: "Ana ",
     texto: "Gracias al rediseño web comenzamos a recibir más clientes reales.",
   },
   {
-    nombre: "Carlos de Startup Y",
+    nombre: "Carlos de Startup ",
     texto: "Mejoramos el SEO y subimos al top 5 de Google en 2 meses.",
   },
   {
-    nombre: "Marta de Tienda Z",
+    nombre: "Marta de Tienda ",
     texto: "Nuestro e-commerce duplicó las conversiones tras su intervención.",
   },
 ]
@@ -27,9 +27,9 @@ function ClientesTestimonios() {
           {testimonios.concat(testimonios).map((item, i) => (
             <div
               key={i}
-              className="min-w-[300px] bg-gray-100 p-6 rounded-lg shadow-md"
+              className="min-w-[300px] min-h-[180px] bg-gray-100 p-20 rounded-lg shadow-md"
             >
-              <p className="text-gray-700 text-sm mb-2">“{item.texto}”</p>
+              <p className="text-gray-700 text-md mb-2">“{item.texto}”</p>
               <p className="text-right text-gray-500 text-xs">– {item.nombre}</p>
             </div>
           ))}
