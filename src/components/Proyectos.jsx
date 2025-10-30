@@ -1,18 +1,18 @@
 const proyectos = [
   {
-    imagen: "/assets/proyecto-funval-3.png",
+    imagen: "/assets/proyecto-ecommerce-rancagua.webp",
     titulo: "Ecommerce Minimal",
     resultado: "+300% en conversiones",
     descripcion: "Diseño limpio, enfocado en velocidad y UX clara.",
   },
   {
-    imagen: "/assets/dental -group.png",
+    imagen: "/assets/sitio-clinica-dental.webp",
     titulo: "Web Institucional",
     resultado: "Mejor reputación online",
     descripcion: "Rediseño moderno para destacar servicios y confianza.",
   },
   {
-    imagen: "/assets/undraw_dashboard_p93p.png",
+    imagen: "/assets/undraw_dashboard_p93p.webp",
     titulo: "Dashboard Interno",
     resultado: "+50% eficiencia operativa",
     descripcion: "Herramienta personalizada para gestión interna de datos.",
