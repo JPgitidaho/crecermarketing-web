@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://crecermarketing.vercel.app/sitemap.xml
