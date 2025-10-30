@@ -3,27 +3,27 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://www.crecermarketingweb.cl/</loc>
+<loc>https://crecermarketingweb.vercel.app/</loc>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://www.crecermarketingweb.cl/#servicios</loc>
+<loc>https://crecermarketingweb.vercel.app/</loc>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.crecermarketingweb.cl/#proyectos</loc>
+    <loc>https://crecermarketingweb.vercel.app/#proyectos</loc>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.crecermarketingweb.cl/#clientes</loc>
+    <loc>https://crecermarketingweb.vercel.app/#clientes</loc>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://www.crecermarketingweb.cl/#contacto</loc>
+    <loc>https://crecermarketingweb.vercel.app/#contacto</loc>
     <priority>0.9</priority>
   </url>
 
