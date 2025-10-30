@@ -2,7 +2,7 @@ import { useEffect } from "react"
 
 export default function Analytics() {
   useEffect(() => {
-    const GA_ID = "G-6DLESMEW0B" 
+    const GA_ID = "G-JY4QDJHNK3" 
     if (!GA_ID) return
 
     

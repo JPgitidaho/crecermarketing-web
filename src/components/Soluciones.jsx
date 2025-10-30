@@ -10,7 +10,7 @@ function Soluciones() {
       <SEOTags
         title="Soluciones | Crecer Marketing"
         description="Diagnóstico y soluciones web que posicionan y convierten. SEO, rendimiento y UX para tu negocio."
-        canonical="https://crecermarketing.vercel.app/soluciones"
+        canonical="https://crecermarketingweb.vercel.app/soluciones"
       />
       <section className="max-w-3xl mx-auto text-center">
         <h1 className="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">

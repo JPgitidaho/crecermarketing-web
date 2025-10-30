@@ -9,7 +9,7 @@ function CTAFinal() {
         </h2>
 
     <a
-      href="https://crecermarketing.vercel.app/"
+      href="https://crecermarketingweb.vercel.app/"
       target="_blank"
       rel="noopener noreferrer"
       className="inline-block bg-white text-[#7209b7] font-semibold px-6 py-3 rounded-lg hover:bg-[#f1f1f1] transition"

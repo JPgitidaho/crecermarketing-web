@@ -17,7 +17,7 @@ function Home() {
       <SEOTags
         title="Crecer Marketing | Desarrollo Web y SEO en Rancagua"
         description="Desarrollo web, SEO y estrategias digitales que generan resultados. Sitios modernos, rápidos y optimizados desde Rancagua para todo Chile."
-        canonical="https://crecermarketing.vercel.app/"
+        canonical="https://crecermarketingweb.vercel.app/"
       />
       <Toaster position="bottom-right" />
       <Hero />
