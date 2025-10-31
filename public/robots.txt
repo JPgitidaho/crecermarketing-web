@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://crecermarketingweb.vercel.app/sitemap-new.xml
+
