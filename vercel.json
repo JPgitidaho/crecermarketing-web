@@ -1,23 +1,19 @@
 {
-  "routes": [
+  "headers": [
     {
-      "src": "/robots.txt",
-      "headers": { "Content-Type": "text/plain" },
-      "dest": "/robots.txt"
+      "source": "/sitemap.xml",
+      "headers": [{ "key": "Content-Type", "value": "application/xml" }]
     },
     {
-      "src": "/sitemap.xml",
-      "headers": { "Content-Type": "application/xml" },
-      "dest": "/sitemap.xml"
-    },
-    {
-      "src": "/google(.*)\\.html",
-      "headers": { "Content-Type": "text/html" },
-      "dest": "/google$1.html"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/"
+      "source": "/robots.txt",
+      "headers": [{ "key": "Content-Type", "value": "text/plain" }]
     }
+  ],
+  "rewrites": [
+    { "source": "/robots.txt", "destination": "/robots.txt" },
+    { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
+    { "source": "/google*.html", "destination": "/google*.html" },
+    { "source": "/assets/(.*)", "destination": "/assets/$1" },
+    { "source": "/(.*)", "destination": "/" }
   ]
 }
