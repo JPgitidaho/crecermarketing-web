@@ -1,11 +1,19 @@
 {
-  "builds": [
-    { "src": "package.json", "use": "@vercel/static-build" }
+  "headers": [
+    {
+      "source": "/sitemap.xml",
+      "headers": [{ "key": "Content-Type", "value": "application/xml" }]
+    },
+    {
+      "source": "/robots.txt",
+      "headers": [{ "key": "Content-Type", "value": "text/plain" }]
+    }
   ],
-  "routes": [
-    { "src": "/robots.txt", "headers": { "Content-Type": "text/plain" }, "dest": "/robots.txt" },
-    { "src": "/sitemap.xml", "headers": { "Content-Type": "application/xml" }, "dest": "/sitemap.xml" },
-    { "src": "/google(.*)\\.html", "headers": { "Content-Type": "text/html" }, "dest": "/google$1.html" },
-    { "src": "/(.*)", "dest": "/index.html" }
+  "rewrites": [
+    { "source": "/robots.txt", "destination": "/robots.txt" },
+    { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
+    { "source": "/google*.html", "destination": "/google*.html" },
+    { "source": "/assets/(.*)", "destination": "/assets/$1" },
+    { "source": "/(.*)", "destination": "/" }
   ]
 }
