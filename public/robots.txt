@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://crecermarketingweb.vercel.app/sitemap-new.xml
-
+Sitemap: https://crecermarketingweb.vercel.app/sitemap.xml
