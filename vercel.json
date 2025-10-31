@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/sitemap.xml",
+      "source": "/sitemap-new.xml",
       "headers": [
         { "key": "Content-Type", "value": "application/xml" }
       ]
@@ -13,11 +13,11 @@
       ]
     }
   ],
-  "rewrites": [
-    { "source": "/robots.txt", "destination": "/robots.txt" },
-    { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
-    { "source": "/google*.html", "destination": "/google*.html" },
-    { "source": "/assets/(.*)", "destination": "/assets/$1" },
-    { "source": "/(.*)", "destination": "/" }
+  "routes": [
+    { "src": "/robots.txt", "dest": "/robots.txt" },
+    { "src": "/sitemap-new.xml", "dest": "/sitemap-new.xml" },
+    { "src": "/google.*\\.html", "dest": "/google.html" },
+    { "src": "/assets/(.*)", "dest": "/assets/$1" },
+    { "src": "/(.*)", "dest": "/" }
   ]
 }
