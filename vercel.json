@@ -12,7 +12,10 @@
   "rewrites": [
     { "source": "/robots.txt", "destination": "/robots.txt" },
     { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
-    { "source": "/google*.html", "destination": "/google*.html" },
+    {
+      "source": "/google(.*)\\.html",
+      "destination": "/google$1.html"
+    },
     { "source": "/assets/(.*)", "destination": "/assets/$1" },
     { "source": "/(.*)", "destination": "/" }
   ]
