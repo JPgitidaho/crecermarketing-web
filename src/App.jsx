@@ -11,6 +11,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Soluciones from "./pages/Soluciones"
 import Analytics from "./components/Analytics"
 
+
 function Home() {
   return (
     <>
