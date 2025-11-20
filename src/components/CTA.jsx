@@ -16,7 +16,7 @@ function CTA() {
           Escríbeme y cuéntame tu situación. Te responderé en menos de 24 horas con una propuesta clara y efectiva.
         </p>
         <a
-          href="#"
+          href="#contacto"
           className="inline-block px-8 py-3 text-white font-semibold bg-[#3a0ca3] rounded-xl hover:bg-[#7209b7] transition"
         >
           Quiero una solución

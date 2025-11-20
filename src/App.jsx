@@ -10,6 +10,8 @@ import { Toaster } from "react-hot-toast"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Soluciones from "./pages/Soluciones"
 import Analytics from "./components/Analytics"
+import Navbar from "./components/Navbar"
+import About from "./components/About"
 
 
 function Home() {
@@ -21,7 +23,9 @@ function Home() {
         canonical="https://crecermarketingweb.vercel.app/"
       />
       <Toaster position="bottom-right" />
+      <Navbar />
       <Hero />
+      <About />
       <Servicios />
       <Proyectos />
       <CTA />

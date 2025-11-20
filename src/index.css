@@ -13,3 +13,16 @@
 .animate-slide {
   animation: slide 25s linear infinite;
 }
+.section-fade {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all .8s ease;
+}
+
+.section-fade.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+html {
+  scroll-behavior: smooth;
+}
