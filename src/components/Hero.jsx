@@ -12,7 +12,7 @@ function Hero() {
         transition={{ duration: 0.9 }}
         className="relative max-w-4xl mx-auto text-center backdrop-blur-xl bg-white/5 border border-white/10 rounded-3xl p-10 md:p-16 shadow-2xl"
       >
-        <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight">
+        <h1 className="text-4xl md:text-5xl font-extrabold text-white leading-tight">
           Desarrollo Web Estratégico
           <span className="block text-[#4cc9f0] mt-2">
             para Empresas que Exigen Resultados.
