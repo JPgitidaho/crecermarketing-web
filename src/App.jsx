@@ -12,6 +12,7 @@ import Soluciones from "./pages/Soluciones"
 import Analytics from "./components/Analytics"
 import Navbar from "./components/Navbar"
 import About from "./components/About"
+import WhatsAppButton from "./components/WhatsAppButton"
 
 
 function Home() {
@@ -41,6 +42,7 @@ function App() {
   return (
     <Router>
       <Analytics />
+      <WhatsAppButton />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/soluciones" element={<Soluciones />} />
