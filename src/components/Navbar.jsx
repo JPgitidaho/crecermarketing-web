@@ -22,11 +22,12 @@ function Navbar() {
       `}
     >
       <a href="#" className="text-white text-xl font-bold tracking-tight">
-        Crecer Marketing Web
+        Crecer Marketing
       </a>
 
       <div className="hidden md:flex gap-8 text-white font-medium">
         <a href="#servicios" className="hover:text-[#4cc9f0] transition">Servicios</a>
+        <a href="#about" className="hover:text-[#4cc9f0] transition">Enfoque</a>
         <a href="#proyectos" className="hover:text-[#4cc9f0] transition">Proyectos</a>
         <a href="#contacto" className="hover:text-[#4cc9f0] transition">Contacto</a>
       </div>
@@ -37,7 +38,7 @@ function Navbar() {
         bg-white text-[#3a0ca3] hover:bg-[#4cc9f0] hover:text-black 
         transition-all duration-300 shadow-md"
       >
-        Hablemos
+        Solicitar diagnóstico
       </a>
     </motion.nav>
   )
