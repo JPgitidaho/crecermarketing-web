@@ -38,35 +38,34 @@ export default function Proyectos() {
         </p>
       </FadeInSection>
 
-      <div className="grid md:grid-cols-3 gap-10 mt-16 max-w-6xl mx-auto">
+      <div className="grid md:grid-cols-3 gap-10 mt-16 max-w-6xl mx-auto items-stretch">
         {projects.map((p, i) => (
           <FadeInSection delay={0.1 * i} key={i}>
-            <div className="group bg-gray-50 border border-gray-200 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-              
-              <div className="w-full h-48 bg-white flex items-center justify-center overflow-hidden">
-                <img 
+            <div className="group h-full bg-gray-50 border border-gray-200 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 flex flex-col">
+              <div className="w-full h-56 bg-white overflow-hidden">
+                <img
                   src={p.img}
                   alt={p.titulo}
-                  className="w-full h-full object-contain group-hover:scale-105 transition duration-500"
+                  className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
               </div>
 
-              <div className="p-6">
-                <h3 className="text-xl font-bold text-[#3a0ca3]">
+              <div className="p-6 flex flex-col flex-1">
+                <h3 className="text-xl font-bold text-[#3a0ca3] min-h-[64px]">
                   {p.titulo}
                 </h3>
-                <p className="mt-2 text-gray-700">
+
+                <p className="mt-2 text-gray-700 flex-1">
                   {p.desc}
                 </p>
 
-                <a 
-                  href={p.link} 
-                  className="mt-4 inline-flex items-center text-[#3a0ca3] font-semibold hover:underline"
+                <a
+                  href={p.link}
+                  className="mt-6 inline-flex items-center text-[#3a0ca3] font-semibold hover:underline"
                 >
                   Ver detalle <ExternalLink className="ml-2 w-5 h-5" />
                 </a>
               </div>
-
             </div>
           </FadeInSection>
         ))}
