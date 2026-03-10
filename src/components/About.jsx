@@ -5,25 +5,28 @@ export default function About() {
   return (
     <section id="about" className="py-28 px-6 bg-gray-50 text-[#1a1a1f]">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-<FadeInSection>
-  <div className="bg-white p-8 rounded-2xl border border-gray-200 shadow-md">
-    <img 
-      src="/assets/juanita.webp"
-      alt="Juanita Perez - Desarrollo Web para Empresas"
-      className="w-full rounded-lg"
-    />
-  </div>
-</FadeInSection>
-
+        <FadeInSection>
+          <div className="bg-white p-8 rounded-2xl border border-gray-200 shadow-md">
+            <img 
+              src="/assets/juanita.webp"
+              alt="Juanita Perez - Sitios web profesionales para negocios"
+              className="w-full rounded-lg"
+            />
+          </div>
+        </FadeInSection>
 
         <div>
           <FadeInSection>
-            <h2 className="text-4xl md:text-5xl font-extrabold">Soy lo que necesitas — desarrollo web para empresas</h2>
+            <h2 className="text-4xl md:text-5xl font-extrabold">
+              Desarrollo sitios web pensados para dar una imagen profesional y generar confianza
+            </h2>
           </FadeInSection>
 
           <FadeInSection delay={0.15}>
             <p className="mt-6 text-lg text-gray-700 max-w-xl">
-              Diseño y desarrollo soluciones digitales con foco en objetivos de negocio. Trabajo con equipos y áreas técnicas para convertir procesos en plataformas eficientes que aumentan ventas, reducen costos y mejoran la experiencia del cliente.
+              Ayudo a negocios y empresas a tener una presencia digital clara, moderna y estratégica. 
+              Mi enfoque combina diseño, estructura y desarrollo web para que tu sitio no solo se vea bien, 
+              sino que también comunique mejor lo que haces y te ayude a atraer clientes.
             </p>
           </FadeInSection>
 
@@ -33,8 +36,8 @@ export default function About() {
                 <div className="flex items-center gap-3">
                   <Briefcase className="w-6 h-6 text-[#3a0ca3]" />
                   <div>
-                    <div className="text-sm text-gray-500">Clientes</div>
-                    <div className="font-semibold">Empresas B2B y organizaciones</div>
+                    <div className="text-sm text-gray-500">Enfoque</div>
+                    <div className="font-semibold">Sitios web claros, profesionales y estratégicos</div>
                   </div>
                 </div>
               </div>
@@ -45,8 +48,8 @@ export default function About() {
                 <div className="flex items-center gap-3">
                   <CheckSquare className="w-6 h-6 text-[#3a0ca3]" />
                   <div>
-                    <div className="text-sm text-gray-500">Resultados</div>
-                    <div className="font-semibold">KPIs claros: conversiones y eficiencia</div>
+                    <div className="text-sm text-gray-500">Objetivo</div>
+                    <div className="font-semibold">Transmitir confianza y ayudarte a captar clientes</div>
                   </div>
                 </div>
               </div>
@@ -59,7 +62,7 @@ export default function About() {
                 Ver proyectos
               </a>
               <a href="#contacto" className="px-6 py-3 rounded-xl border border-gray-300 font-semibold text-gray-800 hover:bg-gray-100 transition">
-                Contactar
+                Solicitar diagnóstico
               </a>
             </div>
           </FadeInSection>
