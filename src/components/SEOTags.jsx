@@ -68,9 +68,16 @@ export default function SEOTags({
       image,
       logo: `${SITE_URL}/assets/logo.png`,
       description,
-      areaServed: "Chile",
+      areaServed: ["Rancagua", "Región de O'Higgins", "Chile"],
       email: CONTACT_EMAIL,
       telephone: CONTACT_PHONE,
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "Málaga 501",
+        addressLocality: "Rancagua",
+        addressRegion: "O'Higgins",
+        addressCountry: "CL",
+      },
       sameAs: Object.values(SOCIAL_LINKS),
     }
 
