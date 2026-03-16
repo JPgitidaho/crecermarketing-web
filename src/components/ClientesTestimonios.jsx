@@ -20,7 +20,7 @@ function ClientesTestimonios() {
   return (
     <section className="py-20 bg-white">
       <div className="max-w-6xl mx-auto text-center px-6">
-        <h2 className="text-3xl md:text-4xl mb-4 font-handwritten text-transparent bg-clip-text bg-gradient-to-r from-[#f72585] via-[#7209b7] to-[#4cc9f0]">
+        <h2 className="mb-4 bg-gradient-to-r from-[#0f172a] via-[#0f766e] to-[#67e8f9] bg-clip-text text-3xl font-handwritten text-transparent md:text-4xl">
           Lo que debería lograr tu sitio web
         </h2>
         <p className="text-gray-600 max-w-3xl mx-auto">
@@ -32,9 +32,9 @@ function ClientesTestimonios() {
         {resultados.map((item) => (
           <article
             key={item.titulo}
-            className="rounded-2xl border border-gray-200 bg-gray-50 p-8 shadow-sm"
+            className="rounded-2xl border border-slate-200 bg-slate-50 p-8 shadow-sm"
           >
-            <h3 className="text-xl font-bold text-[#3a0ca3] mb-3">{item.titulo}</h3>
+            <h3 className="mb-3 text-xl font-bold text-[#0f766e]">{item.titulo}</h3>
             <p className="text-gray-700">{item.texto}</p>
           </article>
         ))}

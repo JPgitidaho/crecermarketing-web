@@ -35,7 +35,7 @@ export default function About() {
             <FadeInSection delay={0.25}>
               <div className="p-5 bg-white rounded-2xl border border-gray-200 shadow-sm">
                 <div className="flex items-center gap-3">
-                  <Briefcase className="w-6 h-6 text-[#3a0ca3]" />
+                  <Briefcase className="w-6 h-6 text-[#0f766e]" />
                   <div>
                     <div className="text-sm text-gray-500">Enfoque</div>
                     <div className="font-semibold">
@@ -49,7 +49,7 @@ export default function About() {
             <FadeInSection delay={0.3}>
               <div className="p-5 bg-white rounded-2xl border border-gray-200 shadow-sm">
                 <div className="flex items-center gap-3">
-                  <CheckSquare className="w-6 h-6 text-[#3a0ca3]" />
+                  <CheckSquare className="w-6 h-6 text-[#0f766e]" />
                   <div>
                     <div className="text-sm text-gray-500">Objetivo</div>
                     <div className="font-semibold">
@@ -65,7 +65,7 @@ export default function About() {
             <div className="mt-8 flex gap-4 flex-wrap">
               <a
                 href="#proyectos"
-                className="px-6 py-3 rounded-xl bg-[#3a0ca3] text-white font-semibold hover:bg-[#4cc9f0] hover:text-black transition"
+                className="rounded-xl bg-[#0f766e] px-6 py-3 font-semibold text-white transition hover:bg-[#115e59]"
               >
                 Ver proyectos
               </a>

@@ -9,6 +9,8 @@ import Footer from "./components/Footer"
 import { Toaster } from "react-hot-toast"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Soluciones from "./pages/Soluciones"
+import Blog from "./pages/Blog"
+import BlogPost from "./pages/BlogPost"
 import Analytics from "./components/Analytics"
 import Navbar from "./components/Navbar"
 import About from "./components/About"
@@ -49,6 +51,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/soluciones" element={<Soluciones />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
       </Routes>
     </Router>
   )

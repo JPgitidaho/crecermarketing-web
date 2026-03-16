@@ -37,14 +37,14 @@ function FormularioLanding() {
   }
 
   return (
-    <section id="contacto" className="py-20 px-6 bg-gradient-to-br from-[#f72585]/10 to-[#7209b7]/5 text-gray-800">
+    <section id="contacto" className="bg-gradient-to-br from-[#ecfeff] via-white to-[#f0fdfa] px-6 py-20 text-gray-800">
       <div className="max-w-xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-[#7209b7] via-[#3a0ca3] to-[#4cc9f0]">
+        <h2 className="mb-6 bg-gradient-to-r from-[#0f172a] via-[#0f766e] to-[#67e8f9] bg-clip-text text-3xl font-bold text-transparent md:text-4xl">
           ¿Quieres que revisemos tu web actual?
         </h2>
         <p className="mb-10 text-gray-600">Completa el formulario y te daré recomendaciones reales y sin compromiso.</p>
 
-        <form ref={form} onSubmit={enviarMensaje} className="space-y-6 text-left">
+        <form ref={form} onSubmit={enviarMensaje} className="space-y-6 rounded-[28px] border border-slate-200 bg-white p-8 text-left shadow-sm">
           <div>
             <label htmlFor="name" className="block text-sm font-medium mb-1">Nombre</label>
             <input
@@ -54,7 +54,7 @@ function FormularioLanding() {
               required
               autoComplete="name"
               minLength="2"
-              className="w-full rounded-md border border-gray-300 px-4 py-2 focus:ring-[#7209b7] focus:border-[#7209b7] outline-none"
+              className="w-full rounded-md border border-slate-300 px-4 py-2 outline-none focus:border-[#0f766e] focus:ring-[#0f766e]"
             />
           </div>
           <div>
@@ -65,7 +65,7 @@ function FormularioLanding() {
               id="email"
               required
               autoComplete="email"
-              className="w-full rounded-md border border-gray-300 px-4 py-2 focus:ring-[#7209b7] focus:border-[#7209b7] outline-none"
+              className="w-full rounded-md border border-slate-300 px-4 py-2 outline-none focus:border-[#0f766e] focus:ring-[#0f766e]"
             />
           </div>
           <div>
@@ -76,7 +76,7 @@ function FormularioLanding() {
               rows="4"
               required
               minLength="10"
-              className="w-full rounded-md border border-gray-300 px-4 py-2 focus:ring-[#7209b7] focus:border-[#7209b7] outline-none resize-none"
+              className="w-full rounded-md border border-slate-300 px-4 py-2 outline-none resize-none focus:border-[#0f766e] focus:ring-[#0f766e]"
             />
           </div>
           <div className="text-center">
@@ -85,7 +85,7 @@ function FormularioLanding() {
               disabled={enviando}
               aria-busy={enviando}
               className={`px-8 py-3 font-semibold text-white rounded-xl transition ${
-                enviando ? "bg-gray-400 cursor-not-allowed" : "bg-[#7209b7] hover:bg-[#3a0ca3]"
+                enviando ? "bg-gray-400 cursor-not-allowed" : "bg-[#0f766e] hover:bg-[#115e59]"
               }`}
             >
               {enviando ? "Enviando..." : "Solicitar diagnóstico"}

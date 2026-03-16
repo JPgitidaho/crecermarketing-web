@@ -41,7 +41,7 @@ export default function Proceso() {
           <FadeInSection delay={0.1 * i} key={i}>
             <div className="p-6 bg-white border border-gray-200 rounded-2xl shadow-md h-full">
               
-              <div className="text-3xl font-bold text-[#3a0ca3] mb-4">
+              <div className="mb-4 text-3xl font-bold text-[#0f766e]">
                 {i + 1}
               </div>
 

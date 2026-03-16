@@ -10,15 +10,15 @@ function Beneficios() {
   ]
 
   return (
-    <section className="bg-white py-20 px-6 text-gray-800">
+    <section className="bg-white px-6 py-20 text-gray-800">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-10 text-transparent bg-clip-text bg-gradient-to-r from-[#4361ee] via-[#7209b7] to-[#f72585]">
+        <h2 className="mb-10 bg-gradient-to-r from-[#0f172a] via-[#0f766e] to-[#67e8f9] bg-clip-text text-3xl font-bold text-transparent md:text-4xl">
           ¿Y si tu web hiciera lo que esperas?
         </h2>
         <ul className="grid gap-6 sm:grid-cols-2 text-left mt-10">
           {beneficios.map((item) => (
             <li key={item} className="flex items-start gap-3">
-              <CheckCircle className="text-[#7209b7]" size={24} />
+              <CheckCircle className="text-[#0f766e]" size={24} />
               <span className="text-lg">{item}</span>
             </li>
           ))}

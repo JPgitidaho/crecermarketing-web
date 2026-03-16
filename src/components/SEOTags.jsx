@@ -66,7 +66,7 @@ export default function SEOTags({
       name: SITE_NAME,
       url: canonical,
       image,
-      logo: `${SITE_URL}/assets/logo.png`,
+      logo: `${SITE_URL}/assets/logo_master.svg`,
       description,
       areaServed: ["Rancagua", "Región de O'Higgins", "Chile"],
       email: CONTACT_EMAIL,

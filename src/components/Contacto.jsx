@@ -37,9 +37,9 @@ function Contacto() {
   }
 
   return (
-    <section className="py-20 bg-white text-gray-800 px-6" id="contacto">
+    <section className="bg-white px-6 py-20 text-gray-800" id="contacto">
       <div className="max-w-2xl mx-auto text-center">
-        <h2 className="text-4xl md:text-5xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-[#f72585] via-[#7209b7] to-[#4cc9f0]">
+        <h2 className="mb-8 bg-gradient-to-r from-[#0f172a] via-[#0f766e] to-[#67e8f9] bg-clip-text text-4xl font-bold text-transparent md:text-5xl">
           Solicita un diagnóstico
         </h2>
 
@@ -47,7 +47,7 @@ function Contacto() {
           Si tu negocio necesita una web más clara, profesional o estratégica, cuéntame tu proyecto y te responderé con una orientación inicial.
         </p>
 
-        <form ref={form} onSubmit={enviarMensaje} className="space-y-6 text-left">
+        <form ref={form} onSubmit={enviarMensaje} className="space-y-6 rounded-[28px] border border-slate-200 bg-slate-50 p-8 text-left shadow-sm">
           <div>
             <label htmlFor="name" className="block text-sm font-medium text-gray-700">
               Nombre
@@ -59,7 +59,7 @@ function Contacto() {
               required
               autoComplete="name"
               minLength="2"
-              className="mt-1 block w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 focus:ring-[#7209b7] focus:border-[#7209b7] outline-none"
+              className="mt-1 block w-full rounded-md border border-slate-300 bg-white px-4 py-2 shadow-sm outline-none focus:border-[#0f766e] focus:ring-[#0f766e]"
             />
           </div>
 
@@ -73,7 +73,7 @@ function Contacto() {
               id="email"
               required
               autoComplete="email"
-              className="mt-1 block w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 focus:ring-[#7209b7] focus:border-[#7209b7] outline-none"
+              className="mt-1 block w-full rounded-md border border-slate-300 bg-white px-4 py-2 shadow-sm outline-none focus:border-[#0f766e] focus:ring-[#0f766e]"
             />
           </div>
 
@@ -87,7 +87,7 @@ function Contacto() {
               rows="5"
               required
               minLength="10"
-              className="mt-1 block w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 focus:ring-[#7209b7] focus:border-[#7209b7] outline-none resize-none"
+              className="mt-1 block w-full rounded-md border border-slate-300 bg-white px-4 py-2 shadow-sm outline-none resize-none focus:border-[#0f766e] focus:ring-[#0f766e]"
             ></textarea>
           </div>
 
@@ -99,7 +99,7 @@ function Contacto() {
               className={`inline-block px-8 py-3 font-semibold text-white rounded-xl transition ${
                 enviando
                   ? "bg-gray-400 cursor-not-allowed"
-                  : "bg-[#7209b7] hover:bg-[#3a0ca3]"
+                  : "bg-[#0f766e] hover:bg-[#115e59]"
               }`}
             >
               {enviando ? "Enviando..." : "Enviar solicitud"}

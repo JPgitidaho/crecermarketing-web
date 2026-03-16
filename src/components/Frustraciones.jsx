@@ -10,15 +10,15 @@ function Frustraciones() {
   ]
 
   return (
-    <section className="bg-gray-50 py-20 px-6 text-center text-gray-800">
+    <section className="bg-slate-50 px-6 py-20 text-center text-gray-800">
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-[#f72585] via-[#7209b7] to-[#4cc9f0]">
+        <h2 className="mb-8 bg-gradient-to-r from-[#0f172a] via-[#0f766e] to-[#67e8f9] bg-clip-text text-3xl font-bold text-transparent md:text-4xl">
           ¿Te sientes identificado con esto?
         </h2>
         <ul className="space-y-4 text-lg text-gray-700 text-left">
           {items.map((item) => (
             <li key={item} className="flex items-start gap-3">
-              <CircleAlert className="mt-1 shrink-0 text-[#f72585]" size={22} />
+              <CircleAlert className="mt-1 shrink-0 text-[#0f766e]" size={22} />
               <span>{item}</span>
             </li>
           ))}

@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 
 function CTA() {
   return (
-    <section className="py-20 px-6 bg-white text-[#3a0ca3] text-center">
+    <section className="bg-white px-6 py-20 text-center text-slate-950">
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -20,7 +20,7 @@ function CTA() {
 
         <a
           href="#contacto"
-          className="inline-block px-8 py-3 text-white font-semibold bg-[#3a0ca3] rounded-xl hover:bg-[#7209b7] transition"
+          className="inline-block rounded-xl bg-[#0f766e] px-8 py-3 font-semibold text-white transition hover:bg-[#115e59]"
         >
           Solicitar diagnóstico
         </a>

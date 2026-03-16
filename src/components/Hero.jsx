@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 
 function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-6 pt-32 pb-32 overflow-hidden bg-gradient-to-br from-[#0f0f12] via-[#1a1a1f] to-[#3a0ca3]">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#020617] via-[#0f172a] to-[#134e4a] px-6 pb-32 pt-32">
       
       <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
 
@@ -14,7 +14,7 @@ function Hero() {
       >
         <h1 className="text-4xl md:text-5xl font-extrabold text-white leading-tight">
           Sitios Web Profesionales
-          <span className="block text-[#4cc9f0] mt-2">
+          <span className="mt-2 block text-[#67e8f9]">
             para negocios que necesitan crecer y verse serios.
           </span>
         </h1>
@@ -32,7 +32,7 @@ function Hero() {
         >
           <a
             href="#contacto"
-            className="px-8 py-3 font-semibold rounded-xl bg-white text-[#3a0ca3] hover:bg-[#4cc9f0] hover:text-black transition-all duration-300 shadow-lg"
+            className="rounded-xl bg-white px-8 py-3 font-semibold text-[#0f172a] shadow-lg transition-all duration-300 hover:bg-[#99f6e4] hover:text-[#0f172a]"
           >
             Solicitar diagnóstico
           </a>

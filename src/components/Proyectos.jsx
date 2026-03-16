@@ -51,7 +51,7 @@ export default function Proyectos() {
               </div>
 
               <div className="p-6 flex flex-col flex-1">
-                <h3 className="text-xl font-bold text-[#3a0ca3] min-h-[64px]">
+                <h3 className="min-h-[64px] text-xl font-bold text-[#0f766e]">
                   {project.titulo}
                 </h3>
 
@@ -62,7 +62,7 @@ export default function Proyectos() {
                     href={project.link}
                     target="_blank"
                     rel="noreferrer"
-                    className="mt-6 inline-flex items-center text-[#3a0ca3] font-semibold hover:underline"
+                    className="mt-6 inline-flex items-center font-semibold text-[#0f766e] hover:underline"
                   >
                     Ver proyecto <ExternalLink className="ml-2 w-5 h-5" />
                   </a>

@@ -3,7 +3,7 @@ import { WHATSAPP_URL } from "../config/site"
 
 function CTAFinal() {
   return (
-    <section className="py-20 px-6 bg-gradient-to-br from-[#3a0ca3] to-[#f72585] text-white text-center">
+    <section className="bg-gradient-to-br from-[#020617] via-[#0f172a] to-[#115e59] px-6 py-20 text-center text-white">
       <h2 className="text-3xl md:text-4xl font-bold mb-4">
         Tu sitio web debería ayudarte a vender mejor.
       </h2>
@@ -15,7 +15,7 @@ function CTAFinal() {
         href={WHATSAPP_URL}
         target="_blank"
         rel="noreferrer"
-        className="inline-flex items-center gap-2 bg-white text-[#7209b7] font-semibold px-6 py-3 rounded-lg hover:bg-[#f1f1f1] transition"
+        className="inline-flex items-center gap-2 rounded-lg bg-white px-6 py-3 font-semibold text-[#0f172a] transition hover:bg-[#ccfbf1]"
       >
         <MessageCircle className="h-5 w-5" />
         Escribir por WhatsApp
