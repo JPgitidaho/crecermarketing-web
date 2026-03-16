@@ -4,23 +4,23 @@ import { Briefcase, BarChart3, Layout, Code } from "lucide-react"
 const items = [
   {
     icon: <Briefcase className="w-10 h-10 text-[#3a0ca3]" />,
-    title: "Sitios Corporativos",
-    desc: "Presencia profesional, comunicación clara y enfoque en credibilidad. Desarrollo pensado para organizaciones que quieren impacto real."
-  },
-  {
-    icon: <BarChart3 className="w-10 h-10 text-[#3a0ca3]" />,
-    title: "Sistemas y Plataformas",
-    desc: "Soluciones a medida para optimizar procesos, reducir costos y digitalizar operaciones internas de tu empresa."
+    title: "Sitio Web Profesional para Negocios",
+    desc: "Diseño y desarrollo de sitios web claros, rápidos y bien estructurados para que tu negocio transmita confianza y explique mejor lo que ofrece."
   },
   {
     icon: <Layout className="w-10 h-10 text-[#3a0ca3]" />,
-    title: "E-commerce Avanzado",
-    desc: "Tiendas robustas, rápidas y escalables. Integración con logística, stock, medios de pago y sistemas internos."
+    title: "Landing Pages para Captar Clientes",
+    desc: "Páginas enfocadas en convertir visitantes en contactos o ventas. Ideales para campañas, servicios específicos o lanzamientos."
+  },
+  {
+    icon: <BarChart3 className="w-10 h-10 text-[#3a0ca3]" />,
+    title: "Rediseño Web Estratégico",
+    desc: "Si tu sitio actual se ve antiguo o no comunica bien tu negocio, lo reorganizo y rediseño para que sea claro, moderno y efectivo."
   },
   {
     icon: <Code className="w-10 h-10 text-[#3a0ca3]" />,
-    title: "Desarrollo a Medida",
-    desc: "Herramientas diseñadas según la realidad de tu negocio. Tecnología alineada 100% a tus objetivos empresariales."
+    title: "Auditoría Web Inicial",
+    desc: "Análisis de tu sitio web para detectar problemas de estructura, mensaje o presencia digital, con recomendaciones claras de mejora."
   }
 ]
 
@@ -30,13 +30,13 @@ function Services() {
       
       <FadeInSection>
         <h2 className="text-4xl md:text-5xl font-extrabold text-center">
-          Servicios para Empresas
+          Soluciones Web para Negocios
         </h2>
       </FadeInSection>
 
       <FadeInSection delay={0.2}>
         <p className="mt-4 text-center text-lg max-w-3xl mx-auto text-gray-600">
-          Desarrollo estratégico enfocado en resultados: eficiencia, crecimiento y presencia digital sólida.
+          Desarrollo de sitios web profesionales pensados para transmitir confianza, explicar claramente tu negocio y ayudarte a atraer más clientes.
         </p>
       </FadeInSection>
 
