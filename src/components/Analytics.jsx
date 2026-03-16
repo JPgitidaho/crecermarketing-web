@@ -1,25 +1,31 @@
 import { useEffect } from "react"
+import { GA_ID } from "../config/site"
 
 export default function Analytics() {
   useEffect(() => {
-    const GA_ID = "G-59PLN19ELW" 
     if (!GA_ID) return
 
-    
-    const script1 = document.createElement("script")
-    script1.async = true
-    script1.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`
+    const scriptSrc = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`
+    const existingScript = document.head.querySelector(
+      `script[src="${scriptSrc}"]`
+    )
 
-    const script2 = document.createElement("script")
-    script2.innerHTML = `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', '${GA_ID}');
-    `
+    if (!existingScript) {
+      const script = document.createElement("script")
+      script.async = true
+      script.src = scriptSrc
+      document.head.appendChild(script)
+    }
 
-    document.head.appendChild(script1)
-    document.head.appendChild(script2)
+    window.dataLayer = window.dataLayer || []
+    window.gtag =
+      window.gtag ||
+      function gtag() {
+        window.dataLayer.push(arguments)
+      }
+
+    window.gtag("js", new Date())
+    window.gtag("config", GA_ID)
   }, [])
 
   return null

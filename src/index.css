@@ -23,6 +23,11 @@
   opacity: 1;
   transform: translateY(0);
 }
+
+.font-handwritten {
+  font-family: "Dancing Script", cursive;
+}
+
 html {
   scroll-behavior: smooth;
 }

@@ -16,8 +16,8 @@ function Beneficios() {
           ¿Y si tu web hiciera lo que esperas?
         </h2>
         <ul className="grid gap-6 sm:grid-cols-2 text-left mt-10">
-          {beneficios.map((item, index) => (
-            <li key={index} className="flex items-start gap-3">
+          {beneficios.map((item) => (
+            <li key={item} className="flex items-start gap-3">
               <CheckCircle className="text-[#7209b7]" size={24} />
               <span className="text-lg">{item}</span>
             </li>

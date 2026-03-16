@@ -1,4 +1,14 @@
+import { CircleAlert } from "lucide-react"
+
 function Frustraciones() {
+  const items = [
+    "Tu web no aparece en Google ni recibe visitas de calidad.",
+    "Se ve mal en celulares o tarda demasiado en cargar.",
+    "No tienes una forma clara de actualizarla o presentar tus servicios.",
+    "No genera consultas, ventas ni oportunidades reales.",
+    "Terminaste dependiendo de Instagram o WhatsApp porque la web no ayuda.",
+  ]
+
   return (
     <section className="bg-gray-50 py-20 px-6 text-center text-gray-800">
       <div className="max-w-3xl mx-auto">
@@ -6,11 +16,12 @@ function Frustraciones() {
           ¿Te sientes identificado con esto?
         </h2>
         <ul className="space-y-4 text-lg text-gray-700 text-left">
-          <li>❌ Tu web no aparece en Google ni recibe visitas.</li>
-          <li>❌ Se ve mal en celulares o es lenta al cargar.</li>
-          <li>❌ No sabes cómo actualizarla o agregar productos.</li>
-          <li>❌ No genera ventas, contactos ni resultados reales.</li>
-          <li>❌ Pagaste por una web y aún así haces todo por Instagram o WhatsApp.</li>
+          {items.map((item) => (
+            <li key={item} className="flex items-start gap-3">
+              <CircleAlert className="mt-1 shrink-0 text-[#f72585]" size={22} />
+              <span>{item}</span>
+            </li>
+          ))}
         </ul>
       </div>
     </section>

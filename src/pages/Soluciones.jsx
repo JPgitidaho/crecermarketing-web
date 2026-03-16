@@ -1,13 +1,20 @@
+import SEOTags from "../components/SEOTags"
 import Frustraciones from "../components/Frustraciones"
 import Beneficios from "../components/Beneficios"
 import FormularioLanding from "../components/FormularioLanding"
 import CTAFinal from "../components/CTAFinal"
+import { SITE_URL } from "../config/site"
 
 
 
 function Soluciones() {
   return (
     <main className="min-h-screen bg-white text-gray-800 px-6 py-20">
+      <SEOTags
+        title="Soluciones | Crecer Marketing"
+        description="Diagnóstico y soluciones web para negocios que necesitan una web más clara, rápida y preparada para convertir visitas en oportunidades."
+        canonical={`${SITE_URL}/soluciones`}
+      />
       <section className="max-w-3xl mx-auto text-center">
         <h1 className="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
           ¿Tu sitio web no funciona como debería?

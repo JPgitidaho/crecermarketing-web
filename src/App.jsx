@@ -13,6 +13,8 @@ import Analytics from "./components/Analytics"
 import Navbar from "./components/Navbar"
 import About from "./components/About"
 import WhatsAppButton from "./components/WhatsAppButton"
+import ScrollToHash from "./components/ScrollToHash"
+import { SITE_URL } from "./config/site"
 
 
 function Home() {
@@ -21,9 +23,8 @@ function Home() {
       <SEOTags
         title="Crecer Marketing | Desarrollo Web y SEO en Rancagua"
         description="Desarrollo web, SEO y estrategias digitales que generan resultados. Sitios modernos, rápidos y optimizados desde Rancagua para todo Chile."
-        canonical="https://crecermarketingweb.vercel.app/"
+        canonical={`${SITE_URL}/`}
       />
-      <Toaster position="bottom-right" />
       <Navbar />
       <Hero />
       <About />
@@ -42,6 +43,8 @@ function App() {
   return (
     <Router>
       <Analytics />
+      <ScrollToHash />
+      <Toaster position="bottom-right" />
       <WhatsAppButton />
       <Routes>
         <Route path="/" element={<Home />} />

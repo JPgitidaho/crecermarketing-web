@@ -1,6 +1,10 @@
 import { useRef, useState } from "react"
-import emailjs from "@emailjs/browser"
 import { toast } from "react-hot-toast"
+import {
+  getContactPayload,
+  sendContactForm,
+  validateContactFields,
+} from "../lib/contact"
 
 function FormularioLanding() {
   const form = useRef()
@@ -8,21 +12,24 @@ function FormularioLanding() {
 
   const enviarMensaje = (e) => {
     e.preventDefault()
+
+    const payload = getContactPayload(form.current)
+    const validationError = validateContactFields(payload)
+
+    if (validationError) {
+      toast.error(validationError)
+      return
+    }
+
     setEnviando(true)
 
-    emailjs
-      .sendForm(
-        "service_i4rxzlc",
-        "template_c62v1ir",
-        form.current,
-        "83EWTN4t8yyyKqrU9"
-      )
+    sendContactForm(form.current)
       .then(() => {
-        toast.success("Mensaje enviado correctamente 🎉")
+        toast.success("Mensaje enviado correctamente.")
         form.current.reset()
       })
       .catch(() => {
-        toast.error("Ocurrió un error al enviar el mensaje")
+        toast.error("Ocurrió un error al enviar el mensaje.")
       })
       .finally(() => {
         setEnviando(false)
@@ -30,7 +37,7 @@ function FormularioLanding() {
   }
 
   return (
-    <section id="formulario" className="py-20 px-6 bg-gradient-to-br from-[#f72585]/10 to-[#7209b7]/5 text-gray-800">
+    <section id="contacto" className="py-20 px-6 bg-gradient-to-br from-[#f72585]/10 to-[#7209b7]/5 text-gray-800">
       <div className="max-w-xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-[#7209b7] via-[#3a0ca3] to-[#4cc9f0]">
           ¿Quieres que revisemos tu web actual?
@@ -45,6 +52,8 @@ function FormularioLanding() {
               name="name"
               id="name"
               required
+              autoComplete="name"
+              minLength="2"
               className="w-full rounded-md border border-gray-300 px-4 py-2 focus:ring-[#7209b7] focus:border-[#7209b7] outline-none"
             />
           </div>
@@ -55,6 +64,7 @@ function FormularioLanding() {
               name="email"
               id="email"
               required
+              autoComplete="email"
               className="w-full rounded-md border border-gray-300 px-4 py-2 focus:ring-[#7209b7] focus:border-[#7209b7] outline-none"
             />
           </div>
@@ -65,6 +75,7 @@ function FormularioLanding() {
               id="message"
               rows="4"
               required
+              minLength="10"
               className="w-full rounded-md border border-gray-300 px-4 py-2 focus:ring-[#7209b7] focus:border-[#7209b7] outline-none resize-none"
             />
           </div>
@@ -72,6 +83,7 @@ function FormularioLanding() {
             <button
               type="submit"
               disabled={enviando}
+              aria-busy={enviando}
               className={`px-8 py-3 font-semibold text-white rounded-xl transition ${
                 enviando ? "bg-gray-400 cursor-not-allowed" : "bg-[#7209b7] hover:bg-[#3a0ca3]"
               }`}

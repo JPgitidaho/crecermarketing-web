@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { MessageCircle } from "lucide-react"
+import { WHATSAPP_URL } from "../config/site"
 
 const WHATSAPP_ICON_SRC = `${import.meta.env.BASE_URL}assets/wsp.jpg`
 
@@ -8,7 +9,7 @@ function WhatsAppButton() {
 
   return (
     <a
-      href="https://wa.me/56936274715"
+      href={WHATSAPP_URL}
       target="_blank"
       rel="noreferrer"
       aria-label="Escribir por WhatsApp"
