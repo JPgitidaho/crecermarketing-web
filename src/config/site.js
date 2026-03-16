@@ -1,5 +1,5 @@
 export const SITE_NAME = "Crecer Marketing"
-export const SITE_URL = "https://crecermarketing-web.vercel.app"
+export const SITE_URL = "https://crecermarketing.vercel.app"
 export const DEFAULT_TITLE = `${SITE_NAME} | Desarrollo Web y SEO en Rancagua`
 export const SITE_DESCRIPTION =
   "Desarrollo web, SEO y estrategias digitales que generan resultados. Sitios modernos, rápidos y optimizados desde Rancagua para todo Chile."
