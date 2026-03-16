@@ -8,7 +8,7 @@ export default function About() {
 <FadeInSection>
   <div className="bg-white p-8 rounded-2xl border border-gray-200 shadow-md">
     <img 
-      src="/assets/juanita.webp"
+      src="/assets/juanita.png"
       alt="Juanita Perez - Desarrollo Web para Empresas"
       className="w-full rounded-lg"
     />
