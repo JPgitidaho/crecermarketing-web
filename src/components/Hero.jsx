@@ -3,30 +3,27 @@ import { motion } from "framer-motion"
 function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-6 pb-32 pt-32">
-
       <motion.img
         src="/hero-marketing.png"
         alt="digital marketing background"
-        initial={{ scale: 1 }}
-        animate={{ scale: 1.25 }}
+        animate={{ scale: [1, 1.35, 1] }}
         transition={{
-          duration: 20,
+          duration: 12,
           repeat: Infinity,
-          repeatType: "reverse",
-          ease: "linear"
+          ease: "easeInOut"
         }}
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 h-full w-full object-cover object-center will-change-transform"
       />
 
-      <div className="absolute inset-0 bg-black/50"></div>
+      <div className="absolute inset-0 bg-black/55" />
 
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.9 }}
-        className="relative max-w-4xl mx-auto text-center backdrop-blur-xl bg-white/5 border border-white/10 rounded-3xl p-10 md:p-16 shadow-2xl"
+        className="relative z-10 max-w-4xl mx-auto rounded-3xl border border-white/10 bg-white/5 p-10 text-center shadow-2xl backdrop-blur-xl md:p-16"
       >
-        <h1 className="text-4xl md:text-5xl font-extrabold text-white leading-tight">
+        <h1 className="text-4xl md:text-5xl font-extrabold leading-tight text-white">
           Sitios Web Profesionales
           <span className="mt-2 block text-[#67e8f9]">
             para negocios que necesitan crecer y verse serios.
@@ -34,7 +31,7 @@ function Hero() {
         </h1>
 
         <p className="mt-6 text-lg md:text-xl text-gray-200">
-          Desarrollo sitios web claros, rápidos y estratégicos que ayudan a tu negocio 
+          Desarrollo sitios web claros, rápidos y estratégicos que ayudan a tu negocio
           a transmitir confianza, explicar mejor lo que haces y convertir visitantes en clientes.
         </p>
 
@@ -51,7 +48,6 @@ function Hero() {
             Solicitar diagnóstico
           </a>
         </motion.div>
-
       </motion.div>
     </section>
   )
