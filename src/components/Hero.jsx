@@ -2,23 +2,20 @@ import { motion } from "framer-motion"
 
 function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-6 pb-32 pt-32">
-
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#020617] via-[#0f172a] to-[#134e4a] px-6 pb-32 pt-32">
       <motion.div
-        initial={{ scale: 1 }}
-        animate={{ scale: 1.15 }}
+        animate={{ scale: [1, 1.18, 1] }}
         transition={{
-          duration: 18,
+          duration: 8,
           repeat: Infinity,
-          repeatType: "reverse",
           ease: "easeInOut"
         }}
-        className="absolute inset-0 bg-gradient-to-br from-[#020617] via-[#0f172a] to-[#134e4a]"
+        className="absolute left-1/2 top-1/2 h-[900px] w-[900px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,_rgba(103,232,249,0.22)_0%,_rgba(103,232,249,0.08)_35%,_transparent_70%)] blur-3xl"
       />
 
-      <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
 
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.9 }}
@@ -32,7 +29,7 @@ function Hero() {
         </h1>
 
         <p className="mt-6 text-lg md:text-xl text-gray-200">
-          Desarrollo sitios web claros, rápidos y estratégicos que ayudan a tu negocio 
+          Desarrollo sitios web claros, rápidos y estratégicos que ayudan a tu negocio
           a transmitir confianza, explicar mejor lo que haces y convertir visitantes en clientes.
         </p>
 
@@ -49,7 +46,6 @@ function Hero() {
             Solicitar diagnóstico
           </a>
         </motion.div>
-
       </motion.div>
     </section>
   )
