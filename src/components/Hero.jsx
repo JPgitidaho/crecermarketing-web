@@ -3,14 +3,25 @@ import { motion } from "framer-motion"
 function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#020617] via-[#0f172a] to-[#134e4a] px-6 pb-32 pt-32">
+
+      {/* zoom glow */}
       <motion.div
-        animate={{ scale: [1, 1.18, 1] }}
-        transition={{
-          duration: 8,
-          repeat: Infinity,
-          ease: "easeInOut"
-        }}
-        className="absolute left-1/2 top-1/2 h-[900px] w-[900px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,_rgba(103,232,249,0.22)_0%,_rgba(103,232,249,0.08)_35%,_transparent_70%)] blur-3xl"
+        animate={{ scale: [1, 1.2, 1] }}
+        transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }}
+        className="absolute left-1/2 top-1/2 h-[900px] w-[900px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,_rgba(103,232,249,0.25)_0%,_rgba(103,232,249,0.1)_40%,_transparent_70%)] blur-3xl"
+      />
+
+      {/* floating particles */}
+      <motion.div
+        animate={{ y: [-20, 20, -20] }}
+        transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
+        className="absolute top-20 left-20 w-4 h-4 bg-[#67e8f9] rounded-full blur-sm opacity-60"
+      />
+
+      <motion.div
+        animate={{ y: [20, -20, 20] }}
+        transition={{ duration: 14, repeat: Infinity, ease: "easeInOut" }}
+        className="absolute bottom-32 right-24 w-3 h-3 bg-[#99f6e4] rounded-full blur-sm opacity-60"
       />
 
       <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
@@ -29,7 +40,7 @@ function Hero() {
         </h1>
 
         <p className="mt-6 text-lg md:text-xl text-gray-200">
-          Desarrollo sitios web claros, rápidos y estratégicos que ayudan a tu negocio
+          Desarrollo sitios web claros, rápidos y estratégicos que ayudan a tu negocio 
           a transmitir confianza, explicar mejor lo que haces y convertir visitantes en clientes.
         </p>
 
@@ -41,11 +52,12 @@ function Hero() {
         >
           <a
             href="#contacto"
-            className="rounded-xl bg-white px-8 py-3 font-semibold text-[#0f172a] shadow-lg transition-all duration-300 hover:bg-[#99f6e4] hover:text-[#0f172a]"
+            className="rounded-xl bg-white px-8 py-3 font-semibold text-[#0f172a] shadow-lg transition-all duration-300 hover:bg-[#99f6e4]"
           >
             Solicitar diagnóstico
           </a>
         </motion.div>
+
       </motion.div>
     </section>
   )
