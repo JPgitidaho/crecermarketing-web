@@ -2,8 +2,20 @@ import { motion } from "framer-motion"
 
 function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#020617] via-[#0f172a] to-[#134e4a] px-6 pb-32 pt-32">
-      
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-6 pb-32 pt-32">
+
+      <motion.div
+        initial={{ scale: 1 }}
+        animate={{ scale: 1.15 }}
+        transition={{
+          duration: 18,
+          repeat: Infinity,
+          repeatType: "reverse",
+          ease: "easeInOut"
+        }}
+        className="absolute inset-0 bg-gradient-to-br from-[#020617] via-[#0f172a] to-[#134e4a]"
+      />
+
       <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
 
       <motion.div 
@@ -37,6 +49,7 @@ function Hero() {
             Solicitar diagnóstico
           </a>
         </motion.div>
+
       </motion.div>
     </section>
   )
