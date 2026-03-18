@@ -2,31 +2,25 @@ import { motion } from "framer-motion"
 
 function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#020617] via-[#0f172a] to-[#134e4a] px-6 pb-32 pt-32">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-6 pb-32 pt-32">
 
-      {/* zoom glow */}
-      <motion.div
-        animate={{ scale: [1, 1.2, 1] }}
-        transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute left-1/2 top-1/2 h-[900px] w-[900px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,_rgba(103,232,249,0.25)_0%,_rgba(103,232,249,0.1)_40%,_transparent_70%)] blur-3xl"
+      <motion.img
+        src="/hero-marketing.png"
+        alt="digital marketing background"
+        initial={{ scale: 1 }}
+        animate={{ scale: 1.25 }}
+        transition={{
+          duration: 20,
+          repeat: Infinity,
+          repeatType: "reverse",
+          ease: "linear"
+        }}
+        className="absolute inset-0 w-full h-full object-cover"
       />
 
-      {/* floating particles */}
-      <motion.div
-        animate={{ y: [-20, 20, -20] }}
-        transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute top-20 left-20 w-4 h-4 bg-[#67e8f9] rounded-full blur-sm opacity-60"
-      />
+      <div className="absolute inset-0 bg-black/50"></div>
 
-      <motion.div
-        animate={{ y: [20, -20, 20] }}
-        transition={{ duration: 14, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute bottom-32 right-24 w-3 h-3 bg-[#99f6e4] rounded-full blur-sm opacity-60"
-      />
-
-      <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
-
-      <motion.div
+      <motion.div 
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.9 }}
