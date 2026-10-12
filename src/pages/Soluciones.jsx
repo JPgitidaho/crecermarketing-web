@@ -52,20 +52,20 @@ const guide = [
 ]
 
 const steps = [
-  ["Conversamos", "Escuchamos qué necesita tu negocio."],
-  ["Analizamos", "Revisamos la necesidad y el punto de partida."],
-  ["Definimos", "Elegimos la solución que corresponde."],
-  ["Implementamos", "Desarrollamos lo acordado."],
-  ["Revisamos", "Validamos el resultado antes de la entrega."],
+  ["Converso", "Escucho qué necesita tu negocio."],
+  ["Analizo", "Reviso la necesidad y el punto de partida."],
+  ["Defino", "Elijo la solución que corresponde."],
+  ["Implemento", "Desarrollo lo acordado."],
+  ["Reviso", "Valido el resultado antes de la entrega."],
 ]
 
 const differentials = [
-  "No aplicamos la misma solución a todas las empresas.",
-  "Usamos un lenguaje claro, sin tecnicismos innecesarios.",
+  "Cada solución responde a las necesidades de la empresa.",
+  "Uso un lenguaje claro, sin tecnicismos innecesarios.",
   "Las decisiones parten de la necesidad real del negocio.",
-  "Tenemos una base técnica sólida en desarrollo web.",
+  "Tengo una base técnica sólida en desarrollo web.",
   "El SEO se considera desde la estructura del sitio.",
-  "Trabajamos con un enfoque práctico.",
+  "Trabajo con un enfoque práctico.",
 ]
 
 function Soluciones() {
@@ -86,7 +86,7 @@ function Soluciones() {
                 Soluciones digitales para empresas y pymes
               </h1>
               <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-200">
-                Crecer Marketing ayuda a empresas y pymes a mejorar su presencia digital mediante desarrollo web, SEO local, auditoría web y soluciones digitales adaptadas al negocio.
+                Ayudo a empresas y pymes a mejorar su presencia digital mediante desarrollo web, SEO local, auditoría web y soluciones digitales adaptadas al negocio.
               </p>
               <a
                 href="#contacto"
@@ -116,7 +116,7 @@ function Soluciones() {
         <section className="bg-gray-50 px-6 py-20">
           <div className="mx-auto max-w-6xl">
             <FadeInSection>
-              <h2 className="text-center text-3xl font-extrabold md:text-4xl">Nuestras soluciones</h2>
+              <h2 className="text-center text-3xl font-extrabold md:text-4xl">Servicios para tu negocio</h2>
             </FadeInSection>
             <div className="mt-12 grid gap-6 sm:grid-cols-2">
               {solutions.map(({ icon: Icon, title, description, href, cta }) => (

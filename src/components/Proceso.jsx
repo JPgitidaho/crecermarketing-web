@@ -3,23 +3,23 @@ import FadeInSection from "./FadeInSection"
 const pasos = [
   {
     titulo: "Diagnóstico",
-    desc: "Entendemos tu negocio y lo que necesitas resolver."
+    desc: "Entiendo tu negocio y lo que necesitas resolver."
   },
   {
     titulo: "Propuesta",
-    desc: "Acordamos prioridades, alcance y próximos pasos."
+    desc: "Defino prioridades, alcance y próximos pasos contigo."
   },
   {
     titulo: "Desarrollo",
-    desc: "Desarrollamos la solución según lo acordado."
+    desc: "Desarrollo la solución según lo acordado."
   },
   {
     titulo: "Optimización",
-    desc: "Revisamos el proyecto y hacemos los ajustes definidos."
+    desc: "Reviso el proyecto y hago los ajustes definidos."
   },
   {
     titulo: "Entrega",
-    desc: "Entregamos el trabajo y aclaramos las dudas iniciales."
+    desc: "Entrego el trabajo y aclaro las dudas iniciales."
   }
 ]
 

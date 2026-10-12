@@ -40,7 +40,7 @@ function FormularioLanding() {
     <section id="contacto" className="bg-gradient-to-br from-[#ecfeff] via-white to-[#f0fdfa] px-6 py-20 text-gray-800">
       <div className="max-w-xl mx-auto text-center">
         <h2 className="mb-6 bg-gradient-to-r from-[#0f172a] via-[#0f766e] to-[#67e8f9] bg-clip-text text-3xl font-bold text-transparent md:text-4xl">
-          ¿Quieres que revisemos tu web actual?
+          ¿Quieres que revise tu web actual?
         </h2>
         <p className="mb-10 text-gray-600">Completa el formulario y te daré recomendaciones reales y sin compromiso.</p>
 

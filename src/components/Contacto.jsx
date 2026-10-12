@@ -44,7 +44,7 @@ function Contacto() {
         </h2>
 
         <p className="text-lg mb-12 text-gray-600">
-          Cuéntame qué necesita tu empresa y revisaremos juntos el siguiente paso para tu proyecto web o SEO.
+          Cuéntame qué necesita tu empresa y revisaré contigo el siguiente paso para tu proyecto web o SEO.
         </p>
 
         <form ref={form} onSubmit={enviarMensaje} className="space-y-6 rounded-[28px] border border-slate-200 bg-slate-50 p-8 text-left shadow-sm">

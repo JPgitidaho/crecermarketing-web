@@ -25,31 +25,31 @@ const includes = [
   },
   {
     title: "Estructura profesional",
-    description: "Organizamos las páginas para presentar tu empresa y sus servicios con claridad.",
+    description: "Organizo las páginas para presentar tu empresa y sus servicios con claridad.",
   },
   {
     title: "Navegación clara",
-    description: "Ayudamos a que las personas encuentren fácilmente la información que buscan.",
+    description: "Ayudo a que las personas encuentren fácilmente la información que buscan.",
   },
   {
     title: "Formularios de contacto",
-    description: "Incluimos una forma sencilla para que potenciales clientes consulten por tus servicios.",
+    description: "Incluyo una forma sencilla para que potenciales clientes consulten por tus servicios.",
   },
   {
     title: "Acceso a WhatsApp",
-    description: "Facilitamos el inicio de una conversación desde el sitio web.",
+    description: "Facilito el inicio de una conversación desde el sitio web.",
   },
   {
     title: "SEO técnico básico",
-    description: "Consideramos títulos, descripciones y una estructura que ayude a los buscadores a entender el contenido.",
+    description: "Considero títulos, descripciones y una estructura que ayude a los buscadores a entender el contenido.",
   },
   {
     title: "Velocidad y rendimiento",
-    description: "Cuidamos que las páginas carguen de forma eficiente y funcionen correctamente.",
+    description: "Cuido que las páginas carguen de forma eficiente y funcionen correctamente.",
   },
   {
     title: "Dominio y publicación",
-    description: "Te acompañamos con la configuración del dominio y dejamos el sitio publicado.",
+    description: "Te acompaño con la configuración del dominio y dejo el sitio publicado.",
   },
 ]
 
@@ -73,13 +73,13 @@ const siteTypes = [
 ]
 
 const steps = [
-  ["Diagnóstico", "Conversamos sobre tu negocio, tus objetivos y lo que necesitas resolver."],
-  ["Propuesta", "Definimos el alcance del proyecto y los próximos pasos."],
-  ["Estructura", "Ordenamos las páginas y la información que verá cada visitante."],
-  ["Desarrollo", "Diseñamos y construimos el sitio según lo acordado."],
-  ["Revisión", "Revisamos el contenido y el funcionamiento antes de publicar."],
-  ["Publicación", "Conectamos el dominio y dejamos el sitio disponible en internet."],
-  ["Seguimiento inicial", "Acompañamos los primeros pasos y resolvemos dudas de la entrega."],
+  ["Diagnóstico", "Converso sobre tu negocio, tus objetivos y lo que necesitas resolver."],
+  ["Propuesta", "Defino el alcance del proyecto y los próximos pasos."],
+  ["Estructura", "Ordeno las páginas y la información que verá cada visitante."],
+  ["Desarrollo", "Diseño y construyo el sitio según lo acordado."],
+  ["Revisión", "Reviso el contenido y el funcionamiento antes de publicar."],
+  ["Publicación", "Conecto el dominio y dejo el sitio disponible en internet."],
+  ["Seguimiento inicial", "Acompaño los primeros pasos y aclaro tus dudas."],
 ]
 
 const reasons = [
@@ -94,11 +94,11 @@ const reasons = [
 const questions = [
   {
     question: "¿Cuánto demora desarrollar una página web?",
-    answer: "El tiempo depende del alcance, la cantidad de páginas y la disponibilidad del contenido. Revisamos estos puntos en el diagnóstico y acordamos un plazo para cada proyecto.",
+    answer: "El tiempo depende del alcance, la cantidad de páginas y la disponibilidad del contenido. Reviso estos puntos en el diagnóstico y acuerdo un plazo para cada proyecto.",
   },
   {
     question: "¿Qué necesito entregar para comenzar?",
-    answer: "Necesitaremos conocer tu empresa y sus servicios, además de los datos de contacto y los materiales que ya tengas, como logo, textos e imágenes. Te orientamos sobre lo que falte.",
+    answer: "Necesitaré conocer tu empresa y sus servicios, además de los datos de contacto y los materiales que ya tengas, como logo, textos e imágenes. Te oriento sobre lo que falte.",
   },
   {
     question: "¿Trabajas solamente con empresas de Rancagua?",
@@ -114,7 +114,7 @@ const questions = [
   },
   {
     question: "¿Puedo mejorar una página que ya tengo?",
-    answer: "Sí. Revisamos el sitio actual y definimos si conviene mejorar su estructura, actualizar el diseño o desarrollar una nueva versión.",
+    answer: "Sí. Reviso el sitio actual y defino si conviene mejorar su estructura, actualizar el diseño o desarrollar una nueva versión.",
   },
 ]
 
@@ -234,7 +234,7 @@ function DesarrolloWebRancagua() {
             <FadeInSection>
               <h2 className="text-3xl font-extrabold md:text-4xl">Diseño adaptable a computador y celular</h2>
               <p className="mt-5 text-lg leading-8 text-gray-700">
-                Una misma web debe verse y funcionar bien en pantallas grandes y pequeñas. Ajustamos textos, imágenes y botones para que la información se lea con comodidad en cualquier dispositivo.
+                Una misma web debe verse y funcionar bien en pantallas grandes y pequeñas.                 Ajusto textos, imágenes y botones para que la información se lea con comodidad en cualquier dispositivo.
               </p>
             </FadeInSection>
           </div>
@@ -293,10 +293,10 @@ function DesarrolloWebRancagua() {
             <FadeInSection>
               <h2 className="text-3xl font-extrabold md:text-4xl">Desarrollo web en Rancagua y la Región de O’Higgins</h2>
               <p className="mt-5 max-w-4xl text-lg leading-8 text-slate-200">
-                Conocemos las necesidades de empresas y negocios locales que buscan explicar sus servicios y facilitar consultas desde su sitio. El trabajo también puede realizarse a distancia para clientes de otras regiones de Chile.
+                Conozco las necesidades de empresas y negocios locales que buscan explicar sus servicios y facilitar consultas desde su sitio. También trabajo a distancia con clientes de otras regiones de Chile.
               </p>
               <p className="mt-4 text-slate-200">
-                El SEO se considera como parte de una estructura web ordenada. Puedes leer más sobre <Link to="/blog/seo-rancagua" className="font-semibold text-white underline underline-offset-4">SEO local en Rancagua</Link> en nuestro blog.
+                El SEO se considera como parte de una estructura web ordenada. Puedes leer más sobre <Link to="/blog/seo-rancagua" className="font-semibold text-white underline underline-offset-4">SEO local en Rancagua</Link> en el blog.
               </p>
             </FadeInSection>
           </div>
@@ -354,7 +354,7 @@ function DesarrolloWebRancagua() {
 
         <section className="bg-white px-6 py-16 text-center">
           <FadeInSection>
-            <h2 className="text-3xl font-extrabold md:text-4xl">Conversemos sobre la web de tu empresa</h2>
+            <h2 className="text-3xl font-extrabold md:text-4xl">Cuéntame sobre la web de tu empresa</h2>
             <a
               href="#contacto"
               className="mt-6 inline-flex rounded-xl bg-[#0f766e] px-7 py-3 font-semibold text-white transition hover:bg-[#115e59]"

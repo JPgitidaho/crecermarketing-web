@@ -8,7 +8,7 @@ function CTAFinal() {
         Tu sitio web debería ayudarte a vender mejor.
       </h2>
       <p className="max-w-2xl mx-auto text-white/90 mb-8">
-        Si prefieres una respuesta rápida, escríbeme por WhatsApp y revisamos tu caso sin compromiso.
+        Si prefieres una respuesta rápida, escríbeme por WhatsApp y reviso tu caso sin compromiso.
       </p>
 
       <a

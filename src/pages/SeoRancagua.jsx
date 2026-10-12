@@ -19,14 +19,14 @@ import Footer from "../components/Footer"
 import { SITE_URL } from "../config/site"
 
 const serviceItems = [
-  { icon: Code2, title: "Estructura web", description: "Organizamos las páginas para que las personas y Google entiendan tus servicios." },
-  { icon: Wrench, title: "SEO técnico básico", description: "Revisamos aspectos técnicos esenciales que pueden dificultar que tu sitio aparezca." },
-  { icon: Search, title: "Búsquedas relevantes", description: "Identificamos cómo buscan tus potenciales clientes y qué servicios quieren encontrar." },
-  { icon: MapPin, title: "Enfoque local", description: "Ajustamos la información para conectar tu empresa con Rancagua y las zonas que atiendes." },
-  { icon: ClipboardCheck, title: "Perfil de Negocio en Google", description: "Lo revisamos cuando corresponde a tu tipo de negocio y forma de atención." },
-  { icon: BookOpen, title: "Títulos y contenido", description: "Mejoramos títulos, descripciones y contenido según lo que busca cada persona." },
-  { icon: FileSearch, title: "Enlaces e indexación", description: "Revisamos la conexión entre páginas y si Google puede incluirlas en sus resultados." },
-  { icon: BarChart3, title: "Seguimiento básico", description: "Observamos la evolución de la visibilidad y priorizamos próximos ajustes." },
+  { icon: Code2, title: "Estructura web", description: "Organizo las páginas para que las personas y Google entiendan tus servicios." },
+  { icon: Wrench, title: "SEO técnico básico", description: "Reviso aspectos técnicos esenciales que pueden dificultar que tu sitio aparezca." },
+  { icon: Search, title: "Búsquedas relevantes", description: "Identifico cómo buscan tus potenciales clientes y qué servicios quieren encontrar." },
+  { icon: MapPin, title: "Enfoque local", description: "Ajusto la información para conectar tu empresa con Rancagua y las zonas que atiendes." },
+  { icon: ClipboardCheck, title: "Perfil de Negocio en Google", description: "Lo reviso cuando corresponde a tu tipo de negocio y forma de atención." },
+  { icon: BookOpen, title: "Títulos y contenido", description: "Mejoro títulos, descripciones y contenido según lo que busca cada persona." },
+  { icon: FileSearch, title: "Enlaces e indexación", description: "Reviso la conexión entre páginas y si Google puede incluirlas en sus resultados." },
+  { icon: BarChart3, title: "Seguimiento básico", description: "Observo la evolución de la visibilidad y priorizo próximos ajustes." },
 ]
 
 const journey = ["Persona busca", "Google muestra resultados", "Encuentra una empresa", "Visita la web", "Contacta"]
@@ -37,11 +37,11 @@ const measures = ["Visibilidad", "Impresiones", "Clics", "Búsquedas", "Tráfico
 const questions = [
   {
     question: "¿Cuánto demora el SEO en mostrar resultados?",
-    answer: "El SEO es un trabajo gradual. El tiempo depende del estado de tu web, la competencia y las búsquedas de tu rubro; no hay un plazo único que podamos garantizar.",
+    answer: "El SEO es un trabajo gradual. El tiempo depende del estado de tu web, la competencia y las búsquedas de tu rubro; no es posible establecer un plazo único.",
   },
   {
     question: "¿Necesito tener una página web?",
-    answer: "Una web propia ayuda a presentar tus servicios y es una base importante para trabajar el SEO. Si todavía no tienes una, podemos orientarte sobre desarrollo web.",
+    answer: "Una web propia ayuda a presentar tus servicios y es una base importante para trabajar el SEO. Si todavía no tienes una, puedo orientarte sobre desarrollo web.",
   },
   {
     question: "¿SEO y Google Ads son lo mismo?",
@@ -53,11 +53,11 @@ const questions = [
   },
   {
     question: "¿Trabajas solo con empresas de Rancagua?",
-    answer: "El foco local está en Rancagua y la Región de O’Higgins. También podemos trabajar de forma remota con empresas de otras zonas.",
+    answer: "El foco local está en Rancagua y la Región de O’Higgins. También puedo trabajar de forma remota con empresas de otras zonas.",
   },
   {
     question: "¿Puedo hacer SEO si mi web ya existe?",
-    answer: "Sí. Revisamos el sitio actual, identificamos oportunidades y priorizamos mejoras según su punto de partida.",
+    answer: "Sí. Reviso el sitio actual, identifico oportunidades y priorizo mejoras según su punto de partida.",
   },
 ]
 
@@ -259,7 +259,7 @@ function SeoRancagua() {
           <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-[0.8fr_1.2fr] md:items-center">
             <FadeInSection>
               <h2 className="text-3xl font-extrabold md:text-4xl">Qué se puede medir</h2>
-              <p className="mt-4 leading-7 text-gray-600">Revisamos indicadores para entender la evolución y decidir qué conviene mejorar. Los resultados dependen de cada sitio y su contexto.</p>
+              <p className="mt-4 leading-7 text-gray-600">Reviso indicadores para entender la evolución y decidir qué conviene mejorar. Los resultados dependen de cada sitio y su contexto.</p>
             </FadeInSection>
             <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3">
               {measures.map((item) => (

@@ -107,7 +107,7 @@ function Blog() {
                 Ideas claras para que tu sitio web genere negocio de verdad.
               </h1>
               <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-200">
-                Publicamos contenido pensado para empresas que necesitan verse mejor, posicionarse en Google y convertir visitas en contactos reales.
+                Publico contenido pensado para empresas que necesitan verse mejor, posicionarse en Google y convertir visitas en contactos reales.
               </p>
 
               <div className="mt-10 flex flex-wrap gap-4">

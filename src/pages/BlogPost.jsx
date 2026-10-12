@@ -138,7 +138,7 @@ function BlogPost() {
                   Siguiente paso
                 </p>
                 <h2 className="mt-4 text-2xl font-black tracking-tight text-slate-950">
-                  Llevemos esto a tu sitio.
+                  El siguiente paso es aplicar estas ideas en tu sitio.
                 </h2>
                 <p className="mt-4 text-sm leading-7 text-slate-700">
                   Si tu web no transmite confianza o no esta captando contactos, conviene revisar estructura, mensaje y SEO local.

@@ -28,7 +28,7 @@ function Hero() {
         </h1>
 
         <p className="mt-6 text-lg md:text-xl text-gray-200">
-          Crecer Marketing desarrolla sitios profesionales para empresas y pymes, y considera el SEO como parte de una presencia digital bien estructurada. También trabajamos con clientes de otras zonas de Chile.
+          Desarrollo sitios profesionales para empresas y pymes e integro el SEO como parte de una presencia digital bien estructurada. También trabajo con clientes de otras zonas de Chile.
         </p>
 
         <motion.div

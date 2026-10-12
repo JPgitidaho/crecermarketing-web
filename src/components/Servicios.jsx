@@ -18,7 +18,7 @@ const items = [
   {
     icon: <Code className="w-10 h-10 text-[#0f766e]" />,
     title: "Auditoría web",
-    desc: "Detectamos qué puede estar dificultando la navegación o comprensión de tu sitio.",
+    desc: "En la auditoría, detecto qué puede estar dificultando la navegación o comprensión de tu sitio.",
     href: "/auditoria-web-rancagua",
   },
   {
@@ -41,7 +41,7 @@ function Services() {
 
       <FadeInSection delay={0.2}>
         <p className="mt-4 text-center text-lg max-w-3xl mx-auto text-gray-600">
-          Conoce las áreas principales en las que podemos apoyar a tu empresa.
+          Conoce las áreas en las que puedo apoyar a tu empresa.
         </p>
       </FadeInSection>
 

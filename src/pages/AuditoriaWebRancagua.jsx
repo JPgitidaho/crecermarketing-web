@@ -28,32 +28,32 @@ const auditAreas = [
   {
     icon: Gauge,
     title: "Rendimiento",
-    description: "Revisamos velocidad, carga y elementos que pueden ralentizar tu sitio.",
+    description: "Reviso velocidad, carga y elementos que pueden ralentizar tu sitio.",
   },
   {
     icon: Search,
     title: "SEO",
-    description: "Detectamos aspectos que afectan la comprensión y visibilidad de tu web en Google.",
+    description: "Detecto aspectos que afectan la comprensión y visibilidad de tu web en Google.",
   },
   {
     icon: Smartphone,
     title: "Experiencia móvil",
-    description: "Analizamos cómo se ve y funciona el sitio en celulares y pantallas pequeñas.",
+    description: "Analizo cómo se ve y funciona el sitio en celulares y pantallas pequeñas.",
   },
   {
     icon: LayoutDashboard,
     title: "Estructura",
-    description: "Revisamos organización, navegación y claridad del contenido.",
+    description: "Reviso organización, navegación y claridad del contenido.",
   },
   {
     icon: MousePointerClick,
     title: "Conversión",
-    description: "Evaluamos si los llamados a la acción y formularios facilitan el contacto.",
+    description: "Evalúo si los llamados a la acción y formularios facilitan el contacto.",
   },
   {
     icon: ShieldCheck,
     title: "Errores técnicos",
-    description: "Buscamos fallas básicas en enlaces, indexación, seguridad y configuración.",
+    description: "Busco fallas básicas en enlaces, indexación, seguridad y configuración.",
   },
 ]
 
@@ -108,11 +108,11 @@ const services = [
 ]
 
 const processSteps = [
-  ["Revisamos", "Conocemos tu sitio y el contexto de tu negocio."],
-  ["Analizamos", "Evaluamos sus aspectos clave con una mirada técnica y práctica."],
-  ["Priorizamos", "Ordenamos los hallazgos según su relevancia."],
-  ["Explicamos", "Presentamos lo observado en un lenguaje claro."],
-  ["Definimos", "Conversamos sobre las alternativas y próximos pasos."],
+  ["Reviso", "Conozco tu sitio y el contexto de tu negocio."],
+  ["Analizo", "Evalúo sus aspectos clave con una mirada técnica y práctica."],
+  ["Priorizo", "Ordeno los hallazgos según su relevancia."],
+  ["Explico", "Presento lo observado en un lenguaje claro."],
+  ["Defino", "Converso sobre las alternativas y próximos pasos."],
 ]
 
 const reasons = [
@@ -131,12 +131,12 @@ const questions = [
   {
     question: "¿La auditoría incluye SEO?",
     answer:
-      "Sí, revisamos aspectos de SEO relacionados con la estructura y comprensión del sitio. La auditoría no garantiza posiciones específicas ni reemplaza un servicio continuo de posicionamiento.",
+      "Sí, reviso aspectos de SEO relacionados con la estructura y comprensión del sitio. La auditoría no garantiza posiciones específicas ni reemplaza un servicio continuo de posicionamiento.",
   },
   {
     question: "¿Necesito tener una página ya creada?",
     answer:
-      "Sí. Este servicio analiza un sitio web que ya está publicado o disponible para revisión. Si todavía no tienes web, podemos orientarte sobre desarrollo web.",
+      "Sí. Este servicio analiza un sitio web que ya está publicado o disponible para revisión. Si todavía no tienes web, puedo orientarte sobre desarrollo web.",
   },
   {
     question: "¿La auditoría me sirve si mi web ya está publicada?",
@@ -144,14 +144,14 @@ const questions = [
       "Sí. Está pensada precisamente para revisar una web existente y entender qué funciona, qué puede mejorar y qué conviene priorizar.",
   },
   {
-    question: "¿Después de la auditoría ustedes pueden implementar las mejoras?",
+    question: "¿Después de la auditoría puedes implementar las mejoras?",
     answer:
-      "Podemos conversar sobre las mejoras que correspondan y su alcance. La auditoría por sí sola no implica contratar una implementación.",
+      "Puedo conversar sobre las mejoras que correspondan y su alcance. La auditoría por sí sola no implica contratar una implementación.",
   },
   {
-    question: "¿Trabajan solo con empresas de Rancagua?",
+    question: "¿Trabajas solo con empresas de Rancagua?",
     answer:
-      "El servicio tiene foco local en Rancagua y la Región de O’Higgins, y también podemos trabajar a distancia con empresas de otras zonas de Chile.",
+      "El servicio tiene foco local en Rancagua y la Región de O’Higgins, y también puedo trabajar a distancia con empresas de otras zonas de Chile.",
   },
 ]
 
@@ -184,7 +184,7 @@ function AuditoriaWebRancagua() {
                   Auditoría web en Rancagua para detectar qué está frenando tu sitio
                 </h1>
                 <p className="mt-6 max-w-xl text-lg leading-8 text-slate-200">
-                  Analizamos rendimiento, experiencia, SEO y estructura para ayudarte a decidir qué mejorar primero.
+                  Analizo rendimiento, experiencia, SEO y estructura para ayudarte a decidir qué mejorar primero.
                 </p>
                 <a
                   href="#contacto"
@@ -192,44 +192,51 @@ function AuditoriaWebRancagua() {
                 >
                   Solicitar auditoría <ArrowRight className="h-4 w-4" aria-hidden="true" />
                 </a>
-                <p className="mt-4 text-sm text-slate-400">Primero analizamos. Después recomendamos.</p>
+                <p className="mt-4 text-sm text-slate-400">Primero analizo. Después recomiendo.</p>
               </FadeInSection>
 
-              <div aria-label="Panel conceptual de auditoría web" className="mx-auto w-full max-w-xl">
-                <div className="overflow-hidden rounded-[28px] border border-white/15 bg-white text-slate-900 shadow-2xl shadow-black/30">
-                  <div className="flex items-center justify-between gap-4 border-b border-slate-100 px-5 py-4 sm:px-7">
-                    <div className="flex min-w-0 items-center gap-3">
-                      <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#ccfbf1] text-[#0f766e]">
-                        <LayoutDashboard className="h-5 w-5" aria-hidden="true" />
-                      </span>
-                      <div>
-                        <p className="font-bold">Panel de diagnóstico</p>
-                        <p className="text-xs text-slate-500">Vista conceptual · no es un resultado real</p>
-                      </div>
+              <div className="relative mx-auto w-full max-w-xl pb-0 lg:pb-10">
+                <div className="relative aspect-[4/3] overflow-hidden rounded-[28px] border border-white/15 bg-slate-800 shadow-2xl shadow-black/30 sm:aspect-[5/4] lg:aspect-[4/5]">
+                  <img
+                    src="/assets/juanita.jpg"
+                    alt="Representante de Crecer Web y Marketing en su espacio de trabajo"
+                    width="640"
+                    height="640"
+                    fetchPriority="high"
+                    className="h-full w-full object-cover object-center"
+                  />
+                  <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-[#0f172a]/35 via-transparent to-transparent" />
+                </div>
+
+                <div aria-label="Panel conceptual de auditoría web" className="relative mt-4 w-full rounded-2xl border border-slate-200 bg-white p-4 text-slate-900 shadow-xl sm:p-5 lg:absolute lg:bottom-0 lg:right-0 lg:mt-0 lg:w-72">
+                  <div className="flex items-center gap-3 border-b border-slate-100 pb-3">
+                    <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-[#ccfbf1] text-[#0f766e]">
+                      <LayoutDashboard className="h-5 w-5" aria-hidden="true" />
+                    </span>
+                    <div>
+                      <p className="text-sm font-bold">Panel de diagnóstico</p>
+                      <p className="text-xs text-slate-500">Vista ilustrativa</p>
                     </div>
-                    <span className="hidden rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-500 sm:inline-flex">Muestra</span>
                   </div>
-                  <div className="grid gap-3 p-5 sm:grid-cols-2 sm:p-7">
+                  <div className="mt-3 grid grid-cols-2 gap-2">
                     {[
                       ["Rendimiento", "Bien", "bg-emerald-50 text-emerald-700", Gauge],
-                      ["Experiencia móvil", "Revisar", "bg-amber-50 text-amber-700", Smartphone],
                       ["SEO", "Mejorable", "bg-cyan-50 text-cyan-800", Search],
-                      ["Estructura", "Bien", "bg-emerald-50 text-emerald-700", LayoutDashboard],
+                      ["Experiencia móvil", "Revisar", "bg-amber-50 text-amber-700", Smartphone],
                       ["Conversión", "Revisar", "bg-amber-50 text-amber-700", MousePointerClick],
                     ].map(([title, status, statusStyle, Icon]) => (
-                      <div key={title} className="flex min-w-0 items-center justify-between gap-3 rounded-2xl border border-slate-100 bg-slate-50/80 p-3.5">
-                        <div className="flex min-w-0 items-center gap-3">
-                          <Icon className="h-4 w-4 shrink-0 text-[#0f766e]" aria-hidden="true" />
-                          <span className="truncate text-sm font-semibold text-slate-700">{title}</span>
+                      <div key={title} className="min-w-0 rounded-xl border border-slate-100 bg-slate-50 p-2.5">
+                        <div className="flex items-center gap-1.5 text-slate-600">
+                          <Icon className="h-3.5 w-3.5 shrink-0 text-[#0f766e]" aria-hidden="true" />
+                          <span className="truncate text-[11px] font-semibold">{title}</span>
                         </div>
-                        <span className={`shrink-0 rounded-full px-2.5 py-1 text-xs font-bold ${statusStyle}`}>{status}</span>
+                        <span className={`mt-2 inline-flex rounded-full px-2 py-0.5 text-[10px] font-bold ${statusStyle}`}>{status}</span>
                       </div>
                     ))}
-                    <div className="flex items-center gap-3 rounded-2xl bg-[#f0fdfa] p-3.5 text-sm font-semibold text-[#115e59] sm:col-span-2">
-                      <Sparkles className="h-4 w-4 shrink-0" aria-hidden="true" />
-                      El análisis ayuda a ordenar las decisiones
-                    </div>
                   </div>
+                  <p className="mt-3 text-center text-[11px] leading-4 text-slate-500">
+                    Estados ilustrativos, no corresponden a resultados reales.
+                  </p>
                 </div>
               </div>
             </div>
@@ -252,7 +259,7 @@ function AuditoriaWebRancagua() {
           <div className="mx-auto max-w-6xl">
             <FadeInSection>
               <div className="mx-auto max-w-3xl text-center">
-                <h2 className="text-3xl font-extrabold md:text-4xl">Qué revisamos en tu sitio web</h2>
+                <h2 className="text-3xl font-extrabold md:text-4xl">Qué reviso en tu sitio web</h2>
                 <p className="mt-4 text-lg leading-8 text-gray-600">
                   Una mirada completa a los elementos que influyen en la experiencia, la visibilidad y el contacto.
                 </p>
@@ -277,9 +284,9 @@ function AuditoriaWebRancagua() {
             <FadeInSection>
               <div className="max-w-2xl">
                 <p className="text-sm font-bold uppercase tracking-wide text-[#0f766e]">Del análisis a la acción</p>
-                <h2 className="mt-3 text-3xl font-extrabold md:text-4xl">Detectamos antes de recomendar</h2>
+                <h2 className="mt-3 text-3xl font-extrabold md:text-4xl">Analizo antes de recomendar</h2>
                 <p className="mt-4 text-lg leading-8 text-gray-600">
-                  Cada paso conecta lo que observamos con una decisión útil para tu empresa.
+                  Cada paso conecta lo que observo con una decisión útil para tu empresa.
                 </p>
               </div>
             </FadeInSection>
@@ -366,7 +373,7 @@ function AuditoriaWebRancagua() {
             <div>
               <h2 className="text-2xl font-extrabold md:text-3xl">No todo necesita rehacerse</h2>
               <p className="mt-3 text-lg leading-8 text-slate-300">
-                A veces basta con corregir puntos específicos; otras, conviene replantear la estructura. Analizamos primero para recomendar una solución adecuada, sin asumir que necesitas una web nueva.
+                A veces basta con corregir puntos específicos; otras, conviene replantear la estructura. Analizo primero para recomendar una solución adecuada, sin asumir que necesitas una web nueva.
               </p>
             </div>
           </div>
@@ -424,7 +431,7 @@ function AuditoriaWebRancagua() {
             <FadeInSection>
               <div className="mx-auto max-w-3xl text-center">
                 <p className="text-sm font-bold uppercase tracking-wide text-[#99f6e4]">Un proceso claro</p>
-                <h2 className="mt-3 text-3xl font-extrabold md:text-4xl">Así trabajamos</h2>
+                <h2 className="mt-3 text-3xl font-extrabold md:text-4xl">Cómo es el proceso</h2>
               </div>
             </FadeInSection>
             <ol className="mt-9 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
@@ -485,7 +492,7 @@ function AuditoriaWebRancagua() {
             <div className="mx-auto max-w-3xl">
               <h2 className="text-3xl font-extrabold md:text-4xl">Descubre qué conviene mejorar antes de invertir</h2>
               <p className="mt-4 text-lg leading-8 text-slate-300">
-                Revisemos tu sitio y conversemos sobre las prioridades de tu empresa.
+                Cuéntame sobre tu sitio y las prioridades de tu empresa.
               </p>
               <a href="#contacto" className="mt-7 inline-flex items-center gap-2 rounded-xl bg-white px-7 py-3 font-semibold text-[#0f172a] transition hover:bg-[#99f6e4]">
                 Solicitar auditoría <ArrowRight className="h-4 w-4" aria-hidden="true" />

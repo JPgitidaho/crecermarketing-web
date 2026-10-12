@@ -25,7 +25,7 @@ export default function About() {
 
           <FadeInSection delay={0.15}>
             <p className="mt-6 text-lg text-gray-700 max-w-xl">
-              Trabajamos con claridad, criterio profesional y comunicación simple. Cada solución se adapta a las prioridades de tu empresa, con acompañamiento durante el proyecto y sin tecnicismos innecesarios.
+              Trabajo con claridad, criterio profesional y comunicación simple. Cada solución se adapta a las prioridades de tu empresa, con acompañamiento durante el proyecto y sin tecnicismos innecesarios.
             </p>
           </FadeInSection>
 

@@ -7,24 +7,24 @@ const preguntas = [
       "Desarrollo web, SEO local, auditoría web y soluciones digitales para empresas y pymes.",
   },
   {
-    pregunta: "¿Trabajan solo en Rancagua?",
+    pregunta: "¿Trabajas solo en Rancagua?",
     respuesta:
-      "Atendemos empresas de Rancagua y la Región de O’Higgins, además de proyectos de otras zonas de Chile.",
+      "Atiendo empresas de Rancagua y la Región de O’Higgins, además de proyectos de otras zonas de Chile.",
   },
   {
     pregunta: "¿Cómo comienza un proyecto?",
     respuesta:
-      "Comenzamos con un diagnóstico para entender tus objetivos y definir una propuesta de trabajo.",
+      "Comienzo con un diagnóstico para entender tus objetivos y definir una propuesta de trabajo.",
   },
   {
-    pregunta: "¿Pueden ayudarme si ya tengo una página web?",
+    pregunta: "¿Puedes ayudarme si ya tengo una página web?",
     respuesta:
-      "Sí. Podemos revisar tu sitio y conversar sobre las mejoras o soluciones que podrían ser útiles.",
+      "Sí. Puedo revisar tu sitio y conversar sobre las mejoras o soluciones que podrían ser útiles.",
   },
   {
     pregunta: "¿Qué necesito para solicitar un diagnóstico?",
     respuesta:
-      "Cuéntanos brevemente sobre tu empresa, qué necesitas y cómo podemos contactarte. Con eso iniciamos la conversación.",
+      "Cuéntame brevemente sobre tu empresa, qué necesitas y cómo puedo contactarte. Con eso inicio la conversación.",
   },
 ]
 
