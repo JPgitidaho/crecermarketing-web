@@ -170,7 +170,7 @@ function AuditoriaWebRancagua() {
           <div aria-hidden="true" className="absolute -right-32 -top-24 h-96 w-96 rounded-full bg-[#0f766e]/30 blur-3xl" />
           <div aria-hidden="true" className="absolute -bottom-40 left-1/3 h-80 w-80 rounded-full bg-cyan-400/10 blur-3xl" />
           <div className="relative mx-auto max-w-6xl">
-            <div className="grid items-center gap-8 lg:grid-cols-[1.25fr_0.85fr] lg:gap-10">
+            <div className="grid items-center gap-8 lg:grid-cols-[1.25fr_0.85fr] lg:items-start lg:gap-10">
               <FadeInSection>
                 <p className="mb-5 inline-flex items-center gap-2 text-sm font-semibold text-[#99f6e4]">
                   <MapPin className="h-4 w-4" aria-hidden="true" /> Análisis web · Rancagua y O’Higgins
@@ -190,7 +190,7 @@ function AuditoriaWebRancagua() {
                 <p className="mt-4 text-sm text-slate-400">Primero analizo. Después recomiendo.</p>
               </FadeInSection>
 
-              <div className="relative mx-auto w-full max-w-sm pb-0 sm:max-w-md lg:max-w-[480px] lg:pb-8">
+              <div className="relative mx-auto w-full max-w-sm pb-0 sm:max-w-md lg:max-w-[480px] lg:mt-12 lg:pb-8">
                 <div className="relative aspect-[4/3] max-h-[300px] w-full overflow-hidden rounded-[28px] border border-white/15 bg-slate-800 shadow-2xl shadow-black/30 sm:max-h-[340px] lg:aspect-auto lg:h-[480px] lg:max-h-none">
                   <img
                     src="/assets/juanita.jpg"
@@ -198,7 +198,7 @@ function AuditoriaWebRancagua() {
                     width="640"
                     height="640"
                     fetchPriority="high"
-                    className="h-full w-full object-cover object-[center_20%]"
+                    className="h-full w-full object-cover object-[center_35%]"
                   />
                   <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-[#0f172a]/35 via-transparent to-transparent" />
                 </div>
