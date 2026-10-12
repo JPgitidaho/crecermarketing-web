@@ -27,6 +27,8 @@ const solutions = [
     icon: MapPin,
     title: "SEO local",
     description: "Mejorar la presencia de una empresa en búsquedas locales y ayudar a que potenciales clientes la encuentren.",
+    href: "/seo-rancagua",
+    cta: "Ver servicio SEO local",
   },
   {
     icon: ClipboardCheck,

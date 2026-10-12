@@ -88,6 +88,7 @@ export const posts = [
 
       <h2>SEO local con criterio comercial</h2>
       <p>La meta no es conseguir visitas vacias. La meta es atraer personas con una necesidad concreta y convertir esa atencion en oportunidades reales. Cuando el SEO se trabaja con una mirada comercial, deja de ser un tema tecnico aislado y se transforma en una parte central del crecimiento digital.</p>
+      <p>Si buscas apoyo para aplicar estas mejoras en tu empresa, <a href="/seo-rancagua">conoce nuestro servicio de SEO en Rancagua</a>.</p>
     `,
   },
 ]

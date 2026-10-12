@@ -18,6 +18,7 @@ import WhatsAppButton from "./components/WhatsAppButton"
 import ScrollToHash from "./components/ScrollToHash"
 import { SITE_URL } from "./config/site"
 import DesarrolloWebRancagua from "./pages/DesarrolloWebRancagua"
+import SeoRancagua from "./pages/SeoRancagua"
 
 
 function Home() {
@@ -52,6 +53,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/desarrollo-web-rancagua" element={<DesarrolloWebRancagua />} />
+        <Route path="/seo-rancagua" element={<SeoRancagua />} />
         <Route path="/soluciones" element={<Soluciones />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
