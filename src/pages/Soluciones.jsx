@@ -20,7 +20,7 @@ const solutions = [
     icon: Globe,
     title: "Desarrollo web",
     description: "Sitios web profesionales, claros, rápidos y adaptados a computador y celular.",
-    href: "/desarrollo-web-rancagua",
+    href: "/desarrollo-web",
     cta: "Ver desarrollo web",
   },
   {
@@ -34,7 +34,7 @@ const solutions = [
     icon: ClipboardCheck,
     title: "Auditoría web",
     description: "Analizar una página existente para detectar problemas técnicos, de estructura, experiencia y presencia digital.",
-    href: "/auditoria-web-rancagua",
+    href: "/auditoria-web",
     cta: "Ver servicio de auditoría web",
   },
   {

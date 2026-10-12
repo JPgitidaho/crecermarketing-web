@@ -1,8 +1,8 @@
 export const SITE_NAME = "Crecer Marketing"
 export const SITE_URL = "https://crecerwebymarketing.cl"
-export const DEFAULT_TITLE = `${SITE_NAME} | Desarrollo Web y SEO en Rancagua`
+export const DEFAULT_TITLE = "Crecer Web y Marketing | Desarrollo Web, SEO y Auditoría"
 export const SITE_DESCRIPTION =
-  "Desarrollo web, SEO y estrategias digitales que generan resultados. Sitios modernos, rápidos y optimizados desde Rancagua para todo Chile."
+  "Desarrollo web, SEO local, auditoría web y soluciones digitales para empresas y pymes de Rancagua y todo Chile."
 export const DEFAULT_OG_IMAGE = `${SITE_URL}/assets/og_image_1200x630.png`
 export const CONTACT_EMAIL = "contacto@crecermarketing.cl"
 export const CONTACT_PHONE = "+56 9 3627 4715"

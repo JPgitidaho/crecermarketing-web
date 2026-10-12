@@ -1,4 +1,8 @@
 {
+  "redirects": [
+    { "source": "/desarrollo-web-rancagua", "destination": "/desarrollo-web", "permanent": true },
+    { "source": "/auditoria-web-rancagua", "destination": "/auditoria-web", "permanent": true }
+  ],
   "headers": [
     {
       "source": "/sitemap.xml",

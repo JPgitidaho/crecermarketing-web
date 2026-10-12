@@ -9,7 +9,7 @@ const preguntas = [
   {
     pregunta: "¿Trabajas solo en Rancagua?",
     respuesta:
-      "Atiendo empresas de Rancagua y la Región de O’Higgins, además de proyectos de otras zonas de Chile.",
+      "No. Trabajo con empresas de Rancagua y la Región de O’Higgins, y también de forma remota con clientes de todo Chile.",
   },
   {
     pregunta: "¿Cómo comienza un proyecto?",

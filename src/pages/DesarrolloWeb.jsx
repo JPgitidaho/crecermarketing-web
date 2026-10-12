@@ -7,7 +7,7 @@ import Contacto from "../components/Contacto"
 import Footer from "../components/Footer"
 import { DEFAULT_OG_IMAGE } from "../config/site"
 
-const pageUrl = "https://crecerwebymarketing.cl/desarrollo-web-rancagua"
+const pageUrl = "https://crecerwebymarketing.cl/desarrollo-web"
 
 const audiences = [
   "Empresas y pymes",
@@ -102,7 +102,7 @@ const questions = [
   },
   {
     question: "¿Trabajas solamente con empresas de Rancagua?",
-    answer: "Atiendo empresas y pymes de Rancagua y la Región de O’Higgins, y también puedo trabajar de forma remota con clientes de otras regiones de Chile.",
+    answer: "No. Trabajo con empresas y pymes de Rancagua y la Región de O’Higgins, y también de forma remota con clientes de distintas regiones de Chile.",
   },
   {
     question: "¿La página queda adaptada para celulares?",
@@ -118,12 +118,12 @@ const questions = [
   },
 ]
 
-function DesarrolloWebRancagua() {
+function DesarrolloWeb() {
   return (
     <>
       <SEOTags
-        title="Desarrollo Web en Rancagua para Empresas | Crecer Marketing"
-        description="Desarrollo web profesional en Rancagua para empresas y pymes. Sitios claros, rápidos y optimizados para fortalecer tu presencia digital y facilitar nuevos contactos."
+        title="Desarrollo Web Profesional para Empresas | Crecer Web y Marketing"
+        description="Desarrollo web profesional para empresas y pymes en Chile. Sitios claros, rápidos y optimizados para fortalecer tu presencia digital y facilitar nuevos contactos."
         canonical={pageUrl}
         image={DEFAULT_OG_IMAGE}
       />
@@ -135,15 +135,15 @@ function DesarrolloWebRancagua() {
             <nav aria-label="Migas de pan" className="mb-8 text-sm text-slate-300">
               <Link to="/" className="underline-offset-4 hover:underline">Inicio</Link>
               <span aria-hidden="true"> / </span>
-              <span>Desarrollo web en Rancagua</span>
+              <span>Desarrollo web</span>
             </nav>
             <div className="grid items-center gap-12 lg:grid-cols-[1fr_1.1fr]">
               <FadeInSection>
                 <h1 className="text-4xl font-extrabold leading-tight md:text-5xl">
-                  Desarrollo web profesional en Rancagua para empresas
+                  Desarrollo web profesional para empresas y pymes
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-slate-200">
-                  Crecer Marketing desarrolla sitios web profesionales, claros, rápidos y adaptados a las necesidades de cada negocio.
+                  Diseño y desarrollo sitios web claros, rápidos y adaptados a tu negocio. Trabajo con empresas de Rancagua y de todo Chile.
                 </p>
                 <a
                   href="#contacto"
@@ -294,9 +294,9 @@ function DesarrolloWebRancagua() {
         <section className="bg-[#0f172a] px-6 py-20 text-white">
           <div className="mx-auto max-w-5xl">
             <FadeInSection>
-              <h2 className="text-3xl font-extrabold md:text-4xl">Desarrollo web en Rancagua y la Región de O’Higgins</h2>
+              <h2 className="text-3xl font-extrabold md:text-4xl">Desarrollo web en Rancagua y para empresas de todo Chile</h2>
               <p className="mt-5 max-w-4xl text-lg leading-8 text-slate-200">
-                Conozco las necesidades de empresas y negocios locales que buscan explicar sus servicios y facilitar consultas desde su sitio. También trabajo a distancia con clientes de otras regiones de Chile.
+                Conozco las necesidades de empresas y negocios locales de Rancagua y la Región de O’Higgins que buscan explicar sus servicios y facilitar consultas desde su sitio. Como el trabajo es remoto, también desarrollo sitios para empresas de otras regiones.
               </p>
               <p className="mt-4 text-slate-200">
                 El SEO se considera como parte de una estructura web ordenada. Puedes leer más sobre <Link to="/blog/seo-rancagua" className="font-semibold text-white underline underline-offset-4">SEO local en Rancagua</Link> en el blog.
@@ -375,4 +375,4 @@ function DesarrolloWebRancagua() {
   )
 }
 
-export default DesarrolloWebRancagua
+export default DesarrolloWeb

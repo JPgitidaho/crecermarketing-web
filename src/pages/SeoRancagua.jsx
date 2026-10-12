@@ -233,7 +233,7 @@ function SeoRancagua() {
                 Una buena web debe ser clara para las personas y también comprensible para Google. El desarrollo construye esa base; el SEO ayuda a mejorar cómo se presenta en las búsquedas.
               </p>
             </FadeInSection>
-            <Link to="/desarrollo-web-rancagua" className="inline-flex items-center gap-2 font-semibold text-[#0f766e] underline underline-offset-4">
+            <Link to="/desarrollo-web" className="inline-flex items-center gap-2 font-semibold text-[#0f766e] underline underline-offset-4">
               Ver servicio de desarrollo web <Code2 className="h-4 w-4" aria-hidden="true" />
             </Link>
           </div>

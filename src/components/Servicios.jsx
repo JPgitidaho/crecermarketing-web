@@ -7,7 +7,7 @@ const items = [
     icon: <Briefcase className="w-10 h-10 text-[#0f766e]" />,
     title: "Desarrollo web",
     desc: "Una web profesional para explicar tus servicios y facilitar el contacto.",
-    href: "/desarrollo-web-rancagua",
+    href: "/desarrollo-web",
   },
   {
     icon: <BarChart3 className="w-10 h-10 text-[#0f766e]" />,
@@ -19,7 +19,7 @@ const items = [
     icon: <Code className="w-10 h-10 text-[#0f766e]" />,
     title: "Auditoría web",
     desc: "En la auditoría, detecto qué puede estar dificultando la navegación o comprensión de tu sitio.",
-    href: "/auditoria-web-rancagua",
+    href: "/auditoria-web",
   },
   {
     icon: <Layout className="w-10 h-10 text-[#0f766e]" />,

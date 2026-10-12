@@ -85,7 +85,7 @@ const services = [
     icon: Code2,
     title: "Desarrollo Web",
     description: "Para crear o renovar una página.",
-    href: "/desarrollo-web-rancagua",
+    href: "/desarrollo-web",
   },
   {
     icon: Search,
@@ -151,17 +151,17 @@ const questions = [
   {
     question: "¿Trabajas solo con empresas de Rancagua?",
     answer:
-      "El servicio tiene foco local en Rancagua y la Región de O’Higgins, y también puedo trabajar a distancia con empresas de otras zonas de Chile.",
+      "No. Trabajo con empresas de Rancagua y la Región de O’Higgins, y también a distancia con empresas de otras zonas de Chile.",
   },
 ]
 
-function AuditoriaWebRancagua() {
+function AuditoriaWeb() {
   return (
     <>
       <SEOTags
-        title="Auditoría Web en Rancagua para Empresas | Crecer Web y Marketing"
-        description="Auditoría web en Rancagua para empresas y pymes. Detecta problemas de rendimiento, experiencia, SEO y estructura para definir qué mejorar primero."
-        canonical={`${SITE_URL}/auditoria-web-rancagua`}
+        title="Auditoría Web para Empresas | Crecer Web y Marketing"
+        description="Auditoría web para empresas y pymes en Chile. Detecta problemas de rendimiento, experiencia, SEO y estructura para definir qué mejorar primero."
+        canonical={`${SITE_URL}/auditoria-web`}
       />
       <Navbar />
 
@@ -173,13 +173,13 @@ function AuditoriaWebRancagua() {
             <div className="grid items-center gap-8 lg:grid-cols-[1.25fr_0.85fr] lg:items-start lg:gap-10">
               <FadeInSection>
                 <p className="mb-5 inline-flex items-center gap-2 text-sm font-semibold text-[#99f6e4]">
-                  <MapPin className="h-4 w-4" aria-hidden="true" /> Análisis web · Rancagua y O’Higgins
+                  <MapPin className="h-4 w-4" aria-hidden="true" /> Análisis web · Rancagua y todo Chile
                 </p>
                 <h1 className="max-w-2xl text-4xl font-extrabold leading-tight md:text-5xl">
-                  Auditoría web en Rancagua para detectar qué está frenando tu sitio
+                  Auditoría web para detectar qué está frenando tu sitio
                 </h1>
                 <p className="mt-6 max-w-xl text-lg leading-8 text-slate-200">
-                  Analizo rendimiento, experiencia, SEO y estructura para ayudarte a decidir qué mejorar primero.
+                  Analizo rendimiento, experiencia, SEO y estructura para ayudarte a decidir qué conviene mejorar primero, estés en Rancagua o en cualquier parte de Chile.
                 </p>
                 <a
                   href="#contacto"
@@ -504,4 +504,4 @@ function AuditoriaWebRancagua() {
   )
 }
 
-export default AuditoriaWebRancagua
+export default AuditoriaWeb

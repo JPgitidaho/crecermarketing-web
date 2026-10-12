@@ -10,9 +10,9 @@ const navItems = [
 ]
 
 const serviceItems = [
-  { label: "Desarrollo web", to: "/desarrollo-web-rancagua" },
+  { label: "Desarrollo web", to: "/desarrollo-web" },
   { label: "SEO local", to: "/seo-rancagua" },
-  { label: "Auditoría web", to: "/auditoria-web-rancagua" },
+  { label: "Auditoría web", to: "/auditoria-web" },
   { label: "Soluciones digitales", to: "/soluciones" },
 ]
 

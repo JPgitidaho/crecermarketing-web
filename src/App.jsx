@@ -17,17 +17,17 @@ import PreguntasFrecuentes from "./components/PreguntasFrecuentes"
 import WhatsAppButton from "./components/WhatsAppButton"
 import ScrollToHash from "./components/ScrollToHash"
 import { SITE_URL } from "./config/site"
-import DesarrolloWebRancagua from "./pages/DesarrolloWebRancagua"
+import DesarrolloWeb from "./pages/DesarrolloWeb"
 import SeoRancagua from "./pages/SeoRancagua"
-import AuditoriaWebRancagua from "./pages/AuditoriaWebRancagua"
+import AuditoriaWeb from "./pages/AuditoriaWeb"
 
 
 function Home() {
   return (
     <>
       <SEOTags
-        title="Crecer Marketing | Desarrollo Web y SEO en Rancagua"
-        description="Desarrollo web profesional para empresas y pymes en Rancagua y O’Higgins, con SEO integrado desde la estructura. Atención en todo Chile."
+        title="Crecer Web y Marketing | Desarrollo Web, SEO y Auditoría"
+        description="Desarrollo web, SEO local, auditoría web y soluciones digitales para empresas y pymes de Rancagua y todo Chile."
         canonical={`${SITE_URL}/`}
       />
       <Navbar />
@@ -53,9 +53,9 @@ function App() {
       <WhatsAppButton />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/desarrollo-web-rancagua" element={<DesarrolloWebRancagua />} />
+        <Route path="/desarrollo-web" element={<DesarrolloWeb />} />
         <Route path="/seo-rancagua" element={<SeoRancagua />} />
-        <Route path="/auditoria-web-rancagua" element={<AuditoriaWebRancagua />} />
+        <Route path="/auditoria-web" element={<AuditoriaWeb />} />
         <Route path="/soluciones" element={<Soluciones />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
