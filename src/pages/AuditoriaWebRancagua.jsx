@@ -166,16 +166,11 @@ function AuditoriaWebRancagua() {
       <Navbar />
 
       <main className="overflow-hidden text-[#1a1a1f]">
-        <section className="relative overflow-hidden bg-[#0f172a] px-6 pb-20 pt-32 text-white md:pb-24 md:pt-40">
+        <section className="relative overflow-hidden bg-[#0f172a] px-6 pb-12 pt-28 text-white md:pb-16 md:pt-32">
           <div aria-hidden="true" className="absolute -right-32 -top-24 h-96 w-96 rounded-full bg-[#0f766e]/30 blur-3xl" />
           <div aria-hidden="true" className="absolute -bottom-40 left-1/3 h-80 w-80 rounded-full bg-cyan-400/10 blur-3xl" />
           <div className="relative mx-auto max-w-6xl">
-            <nav aria-label="Migas de pan" className="mb-8 text-sm text-slate-300">
-              <Link to="/" className="underline-offset-4 hover:underline">Inicio</Link>
-              <span aria-hidden="true"> / </span>
-              <span>Auditoría web en Rancagua</span>
-            </nav>
-            <div className="grid items-center gap-12 lg:grid-cols-[0.9fr_1.1fr]">
+            <div className="grid items-center gap-8 lg:grid-cols-[1.25fr_0.85fr] lg:gap-10">
               <FadeInSection>
                 <p className="mb-5 inline-flex items-center gap-2 text-sm font-semibold text-[#99f6e4]">
                   <MapPin className="h-4 w-4" aria-hidden="true" /> Análisis web · Rancagua y O’Higgins
@@ -195,15 +190,15 @@ function AuditoriaWebRancagua() {
                 <p className="mt-4 text-sm text-slate-400">Primero analizo. Después recomiendo.</p>
               </FadeInSection>
 
-              <div className="relative mx-auto w-full max-w-xl pb-0 lg:pb-10">
-                <div className="relative aspect-[4/3] overflow-hidden rounded-[28px] border border-white/15 bg-slate-800 shadow-2xl shadow-black/30 sm:aspect-[5/4] lg:aspect-[4/5]">
+              <div className="relative mx-auto w-full max-w-sm pb-0 sm:max-w-md lg:max-w-[480px] lg:pb-8">
+                <div className="relative aspect-[4/3] max-h-[300px] w-full overflow-hidden rounded-[28px] border border-white/15 bg-slate-800 shadow-2xl shadow-black/30 sm:max-h-[340px] lg:aspect-auto lg:h-[480px] lg:max-h-none">
                   <img
                     src="/assets/juanita.jpg"
                     alt="Representante de Crecer Web y Marketing en su espacio de trabajo"
                     width="640"
                     height="640"
                     fetchPriority="high"
-                    className="h-full w-full object-cover object-center"
+                    className="h-full w-full object-cover object-[center_20%]"
                   />
                   <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-[#0f172a]/35 via-transparent to-transparent" />
                 </div>
