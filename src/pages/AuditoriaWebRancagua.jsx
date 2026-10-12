@@ -203,7 +203,7 @@ function AuditoriaWebRancagua() {
                   <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-[#0f172a]/35 via-transparent to-transparent" />
                 </div>
 
-                <div aria-label="Panel conceptual de auditoría web" className="relative mt-4 w-full rounded-2xl border border-slate-200 bg-white p-4 text-slate-900 shadow-xl sm:p-5 lg:absolute lg:bottom-0 lg:right-0 lg:mt-0 lg:w-72">
+                <div aria-label="Panel conceptual de auditoría web" className="relative mt-4 w-full rounded-2xl border border-slate-200 bg-white p-4 text-slate-900 shadow-xl sm:p-5 lg:absolute lg:bottom-6 lg:right-0 lg:mt-0 lg:w-[264px] lg:p-4">
                   <div className="flex items-center gap-3 border-b border-slate-100 pb-3">
                     <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-[#ccfbf1] text-[#0f766e]">
                       <LayoutDashboard className="h-5 w-5" aria-hidden="true" />
