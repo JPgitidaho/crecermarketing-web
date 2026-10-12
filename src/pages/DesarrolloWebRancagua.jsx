@@ -9,6 +9,15 @@ import { DEFAULT_OG_IMAGE } from "../config/site"
 
 const pageUrl = "https://crecerwebymarketing.cl/desarrollo-web-rancagua"
 
+const audiences = [
+  "Empresas y pymes",
+  "Profesionales independientes",
+  "Empresas de servicios",
+  "Construcción y limpieza",
+  "Servicios técnicos",
+  "Negocios locales",
+]
+
 const includes = [
   {
     title: "Diseño adaptable a celulares",
@@ -121,20 +130,20 @@ function DesarrolloWebRancagua() {
       <Navbar />
 
       <main className="text-[#1a1a1f]">
-        <section className="bg-[#0f172a] px-6 pb-24 pt-36 text-white">
-          <div className="mx-auto max-w-5xl">
+        <section className="overflow-hidden bg-[#0f172a] px-6 pb-20 pt-32 text-white md:pt-36">
+          <div className="mx-auto max-w-6xl">
             <nav aria-label="Migas de pan" className="mb-8 text-sm text-slate-300">
               <Link to="/" className="underline-offset-4 hover:underline">Inicio</Link>
               <span aria-hidden="true"> / </span>
               <span>Desarrollo web en Rancagua</span>
             </nav>
-            <FadeInSection>
-              <div className="max-w-4xl">
-                <h1 className="text-4xl font-extrabold leading-tight md:text-6xl">
+            <div className="grid items-center gap-12 lg:grid-cols-[1fr_1.1fr]">
+              <FadeInSection>
+                <h1 className="text-4xl font-extrabold leading-tight md:text-5xl">
                   Desarrollo web profesional en Rancagua para empresas
                 </h1>
-                <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-200 md:text-xl">
-                  Creamos sitios web claros, profesionales y rápidos para que tu empresa transmita confianza y facilite el contacto con potenciales clientes.
+                <p className="mt-6 text-lg leading-8 text-slate-200">
+                  Crecer Marketing desarrolla sitios web profesionales, claros, rápidos y adaptados a las necesidades de cada negocio.
                 </p>
                 <a
                   href="#contacto"
@@ -142,19 +151,44 @@ function DesarrolloWebRancagua() {
                 >
                   Solicitar diagnóstico
                 </a>
+              </FadeInSection>
+              <div className="relative mx-auto aspect-[4/3] w-full max-w-xl">
+                <img
+                  src="/assets/mockup-desarrollo-web-laptop-01.png"
+                  alt="Ejemplo de desarrollo web profesional en laptop"
+                  width="1448"
+                  height="1086"
+                  fetchPriority="high"
+                  className="absolute left-0 top-0 h-[92%] w-[88%] object-contain"
+                />
+                <img
+                  src="/assets/mockup-desarrollo-web-mobile-01.png"
+                  alt="Versión móvil de sitio web profesional"
+                  width="1086"
+                  height="1448"
+                  fetchPriority="high"
+                  className="absolute bottom-0 right-0 h-[62%] w-auto object-contain drop-shadow-2xl"
+                />
               </div>
-            </FadeInSection>
+            </div>
           </div>
         </section>
 
-        <section className="px-6 py-20">
+        <section className="px-6 py-16">
           <div className="mx-auto max-w-5xl">
             <FadeInSection>
               <h2 className="text-3xl font-extrabold md:text-4xl">¿Para quién es este servicio?</h2>
-              <p className="mt-5 max-w-4xl text-lg leading-8 text-gray-600">
-                Está pensado para empresas, pymes y profesionales que necesitan presentar sus servicios en internet, como negocios de construcción o limpieza, servicios técnicos y empresas locales.
+              <p className="mt-4 max-w-3xl text-lg leading-8 text-gray-600">
+                Para quienes necesitan presentar su empresa y sus servicios en internet con claridad.
               </p>
             </FadeInSection>
+            <ul className="mt-8 grid grid-cols-2 gap-4 md:grid-cols-3">
+              {audiences.map((item) => (
+                <li key={item} className="rounded-xl border border-gray-200 bg-gray-50 px-5 py-4 font-semibold text-[#0f172a]">
+                  {item}
+                </li>
+              ))}
+            </ul>
           </div>
         </section>
 
@@ -177,6 +211,35 @@ function DesarrolloWebRancagua() {
           </div>
         </section>
 
+        <section className="overflow-hidden bg-[#f0fdfa] px-6 py-20">
+          <div className="mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-2">
+            <div className="relative mx-auto aspect-[4/3] w-full max-w-xl">
+              <img
+                src="/assets/mockup-desarrollo-web-laptop-01.png"
+                alt="Ejemplo de desarrollo web profesional en laptop"
+                width="1448"
+                height="1086"
+                loading="lazy"
+                className="absolute left-0 top-0 h-[92%] w-[88%] object-contain"
+              />
+              <img
+                src="/assets/mockup-desarrollo-web-mobile-01.png"
+                alt="Versión móvil de sitio web profesional"
+                width="1086"
+                height="1448"
+                loading="lazy"
+                className="absolute bottom-0 right-0 h-[62%] w-auto object-contain drop-shadow-xl"
+              />
+            </div>
+            <FadeInSection>
+              <h2 className="text-3xl font-extrabold md:text-4xl">Diseño adaptable a computador y celular</h2>
+              <p className="mt-5 text-lg leading-8 text-gray-700">
+                Una misma web debe verse y funcionar bien en pantallas grandes y pequeñas. Ajustamos textos, imágenes y botones para que la información se lea con comodidad en cualquier dispositivo.
+              </p>
+            </FadeInSection>
+          </div>
+        </section>
+
         <section className="px-6 py-20">
           <div className="mx-auto max-w-6xl">
             <FadeInSection>
@@ -189,6 +252,38 @@ function DesarrolloWebRancagua() {
                   <p className="mt-2 leading-7 text-gray-600">{item.description}</p>
                 </article>
               ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="overflow-hidden bg-gray-50 px-6 py-20">
+          <div className="mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-2">
+            <FadeInSection>
+              <h2 className="text-3xl font-extrabold md:text-4xl">Distintos estilos para distintos negocios</h2>
+              <p className="mt-5 text-lg leading-8 text-gray-700">
+                El diseño cambia según el tipo de empresa, el público al que se dirige, el servicio que ofrece y el objetivo de la web.
+              </p>
+              <p className="mt-4 text-sm text-gray-500">
+                Imágenes de ejemplo conceptual. Las marcas, personas y datos que aparecen son ficticios y no corresponden a clientes ni resultados reales.
+              </p>
+            </FadeInSection>
+            <div className="relative mx-auto aspect-[4/3] w-full max-w-xl">
+              <img
+                src="/assets/mockup-desarrollo-web-mobile-02.png"
+                alt="Segundo ejemplo de diseño web responsive en celular"
+                width="1086"
+                height="1448"
+                loading="lazy"
+                className="absolute bottom-0 left-0 h-[70%] w-auto object-contain drop-shadow-xl"
+              />
+              <img
+                src="/assets/mockup-desarrollo-web-laptop-02.png"
+                alt="Segundo ejemplo de diseño web profesional en computador"
+                width="1448"
+                height="1086"
+                loading="lazy"
+                className="absolute right-0 top-0 h-[92%] w-[80%] object-contain"
+              />
             </div>
           </div>
         </section>
