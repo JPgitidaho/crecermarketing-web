@@ -203,33 +203,33 @@ function AuditoriaWebRancagua() {
                   <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-[#0f172a]/35 via-transparent to-transparent" />
                 </div>
 
-                <div aria-label="Panel conceptual de auditoría web" className="relative mt-4 w-full rounded-2xl border border-slate-200 bg-white p-4 text-slate-900 shadow-xl sm:p-5 lg:absolute lg:bottom-6 lg:right-0 lg:mt-0 lg:w-[264px] lg:p-4">
-                  <div className="flex items-center gap-3 border-b border-slate-100 pb-3">
-                    <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-[#ccfbf1] text-[#0f766e]">
-                      <LayoutDashboard className="h-5 w-5" aria-hidden="true" />
-                    </span>
-                    <div>
+                <div aria-label="Panel conceptual de auditoría web" className="relative mt-4 w-full rounded-2xl border border-slate-200 bg-white p-4 text-slate-900 shadow-xl md:absolute md:-left-20 md:bottom-4 md:mt-0 md:w-[440px] md:p-3 lg:bottom-[60px]">
+                  <div className="flex items-center justify-between gap-3 border-b border-slate-100 pb-2">
+                    <div className="flex items-center gap-2">
+                      <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-[#ccfbf1] text-[#0f766e]">
+                        <LayoutDashboard className="h-4 w-4" aria-hidden="true" />
+                      </span>
                       <p className="text-sm font-bold">Panel de diagnóstico</p>
-                      <p className="text-xs text-slate-500">Vista ilustrativa</p>
                     </div>
+                    <p className="shrink-0 text-xs text-slate-500">Vista ilustrativa</p>
                   </div>
-                  <div className="mt-3 grid grid-cols-2 gap-2">
+                  <div className="mt-2 grid grid-cols-2 gap-2 md:grid-cols-4 md:gap-1.5">
                     {[
                       ["Rendimiento", "Bien", "bg-emerald-50 text-emerald-700", Gauge],
                       ["SEO", "Mejorable", "bg-cyan-50 text-cyan-800", Search],
                       ["Experiencia móvil", "Revisar", "bg-amber-50 text-amber-700", Smartphone],
                       ["Conversión", "Revisar", "bg-amber-50 text-amber-700", MousePointerClick],
                     ].map(([title, status, statusStyle, Icon]) => (
-                      <div key={title} className="min-w-0 rounded-xl border border-slate-100 bg-slate-50 p-2.5">
+                      <div key={title} className="min-w-0 rounded-xl border border-slate-100 bg-slate-50 p-2.5 md:p-2">
                         <div className="flex items-center gap-1.5 text-slate-600">
                           <Icon className="h-3.5 w-3.5 shrink-0 text-[#0f766e]" aria-hidden="true" />
-                          <span className="truncate text-[11px] font-semibold">{title}</span>
+                          <span className="text-[11px] font-semibold leading-3 md:text-[10px]">{title}</span>
                         </div>
-                        <span className={`mt-2 inline-flex rounded-full px-2 py-0.5 text-[10px] font-bold ${statusStyle}`}>{status}</span>
+                        <span className={`mt-1.5 inline-flex rounded-full px-2 py-0.5 text-[10px] font-bold ${statusStyle}`}>{status}</span>
                       </div>
                     ))}
                   </div>
-                  <p className="mt-3 text-center text-[11px] leading-4 text-slate-500">
+                  <p className="mt-2 text-center text-[11px] leading-4 text-slate-500 md:text-[10px]">
                     Estados ilustrativos, no corresponden a resultados reales.
                   </p>
                 </div>
