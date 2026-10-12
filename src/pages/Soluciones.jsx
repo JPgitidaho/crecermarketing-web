@@ -34,6 +34,8 @@ const solutions = [
     icon: ClipboardCheck,
     title: "Auditoría web",
     description: "Analizar una página existente para detectar problemas técnicos, de estructura, experiencia y presencia digital.",
+    href: "/auditoria-web-rancagua",
+    cta: "Ver servicio de auditoría web",
   },
   {
     icon: Wrench,
