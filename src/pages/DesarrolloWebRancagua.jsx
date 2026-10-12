@@ -154,7 +154,9 @@ function DesarrolloWebRancagua() {
               </FadeInSection>
               <div className="relative mx-auto aspect-[4/3] w-full max-w-xl">
                 <img
-                  src="/assets/mockup-desarrollo-web-laptop-01.png"
+                  src="/assets/mockup-desarrollo-web-laptop-01-1000.webp"
+                  srcSet="/assets/mockup-desarrollo-web-laptop-01-600.webp 600w, /assets/mockup-desarrollo-web-laptop-01-1000.webp 1000w"
+                  sizes="(min-width: 640px) 510px, 90vw"
                   alt="Ejemplo de desarrollo web profesional en laptop"
                   width="1448"
                   height="1086"
@@ -162,11 +164,10 @@ function DesarrolloWebRancagua() {
                   className="absolute left-0 top-0 h-[92%] w-[88%] object-contain"
                 />
                 <img
-                  src="/assets/mockup-desarrollo-web-mobile-01.png"
+                  src="/assets/mockup-desarrollo-web-mobile-01.webp"
                   alt="Versión móvil de sitio web profesional"
                   width="1086"
                   height="1448"
-                  fetchPriority="high"
                   className="absolute bottom-0 right-0 h-[62%] w-auto object-contain drop-shadow-2xl"
                 />
               </div>
@@ -215,7 +216,9 @@ function DesarrolloWebRancagua() {
           <div className="mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-2">
             <div className="relative mx-auto aspect-[4/3] w-full max-w-xl">
               <img
-                src="/assets/mockup-desarrollo-web-laptop-01.png"
+                src="/assets/mockup-desarrollo-web-laptop-01-1000.webp"
+                srcSet="/assets/mockup-desarrollo-web-laptop-01-600.webp 600w, /assets/mockup-desarrollo-web-laptop-01-1000.webp 1000w"
+                sizes="(min-width: 640px) 510px, 90vw"
                 alt="Ejemplo de desarrollo web profesional en laptop"
                 width="1448"
                 height="1086"
@@ -223,7 +226,7 @@ function DesarrolloWebRancagua() {
                 className="absolute left-0 top-0 h-[92%] w-[88%] object-contain"
               />
               <img
-                src="/assets/mockup-desarrollo-web-mobile-01.png"
+                src="/assets/mockup-desarrollo-web-mobile-01.webp"
                 alt="Versión móvil de sitio web profesional"
                 width="1086"
                 height="1448"
@@ -269,7 +272,7 @@ function DesarrolloWebRancagua() {
             </FadeInSection>
             <div className="relative mx-auto aspect-[4/3] w-full max-w-xl">
               <img
-                src="/assets/mockup-desarrollo-web-mobile-02.png"
+                src="/assets/mockup-desarrollo-web-mobile-02.webp"
                 alt="Segundo ejemplo de diseño web responsive en celular"
                 width="1086"
                 height="1448"
@@ -277,7 +280,7 @@ function DesarrolloWebRancagua() {
                 className="absolute bottom-0 left-0 h-[70%] w-auto object-contain drop-shadow-xl"
               />
               <img
-                src="/assets/mockup-desarrollo-web-laptop-02.png"
+                src="/assets/mockup-desarrollo-web-laptop-02.webp"
                 alt="Segundo ejemplo de diseño web profesional en computador"
                 width="1448"
                 height="1086"
