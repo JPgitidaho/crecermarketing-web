@@ -22,10 +22,7 @@ function Hero() {
 
       <div className="absolute inset-0 bg-black/55" />
 
-      <motion.div
-        initial={{ opacity: 1, y: 40 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.9 }}
+      <div
         className="relative z-10 max-w-4xl mx-auto rounded-3xl border border-white/10 bg-white/5 p-8 text-center shadow-2xl backdrop-blur-xl md:p-16"
       >
         <h1 className="text-4xl md:text-5xl font-extrabold leading-tight text-white">
@@ -37,7 +34,7 @@ function Hero() {
         </p>
 
         <motion.div
-          initial={{ opacity: 1, scale: 0.95 }}
+          initial={{ scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.4 }}
           className="mt-10 flex justify-center"
@@ -49,7 +46,7 @@ function Hero() {
             Solicitar diagnóstico
           </a>
         </motion.div>
-      </motion.div>
+      </div>
     </section>
   )
 }
