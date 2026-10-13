@@ -10,6 +10,10 @@ export default function About() {
     <img 
       src="/assets/juanita.jpg"
       alt="Juanita Perez - Desarrollo Web para Empresas"
+      width="640"
+      height="640"
+      loading="lazy"
+      decoding="async"
       className="w-full rounded-lg"
     />
   </div>

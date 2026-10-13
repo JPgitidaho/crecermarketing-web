@@ -53,7 +53,8 @@ export const posts = [
   {
     slug: "seo-rancagua",
     category: "SEO local",
-    image: "/assets/mockup-proyecto1.png",
+    image: "/assets/mockup-proyecto1.webp",
+    ogImage: "/assets/mockup-proyecto1.png",
     accent: "from-[#0f172a] via-[#115e59] to-[#67e8f9]",
     readTime: "6 min",
     title: "SEO en Rancagua: cómo aparecer primero en Google",

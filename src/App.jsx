@@ -9,7 +9,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Soluciones from "./pages/Soluciones"
 import Blog from "./pages/Blog"
 import BlogPost from "./pages/BlogPost"
-import Analytics from "./components/Analytics"
 import Navbar from "./components/Navbar"
 import About from "./components/About"
 import Proceso from "./components/Proceso"
@@ -47,7 +46,6 @@ function Home() {
 function App() {
   return (
     <Router>
-      <Analytics />
       <ScrollToHash />
       <Toaster position="bottom-right" />
       <WhatsAppButton />

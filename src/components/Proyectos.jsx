@@ -5,19 +5,26 @@ const projects = [
   {
     titulo: "E-commerce – Tienda Online",
     desc: "Desarrollo de una tienda online con catálogo de productos, carrito de compras y una experiencia de usuario clara orientada a facilitar la compra.",
-    img: "/assets/mockup-proyecto1.png",
+    img: "/assets/mockup-proyecto1.webp",
+    srcSet: "/assets/mockup-proyecto1-800.webp 800w, /assets/mockup-proyecto1.webp 1032w",
+    width: 1032,
+    height: 558,
     link: "https://personal-sleep-outside.netlify.app",
   },
   {
     titulo: "Sitio Web Corporativo",
     desc: "Diseño y desarrollo de un sitio web orientado a transmitir credibilidad, explicar servicios con claridad y fortalecer la presencia digital del negocio.",
     img: "/assets/sitio-clinica-dental.webp",
+    width: 1273,
+    height: 599,
     link: null,
   },
   {
     titulo: "Sistema de Gestión Interna",
     desc: "Dashboard interno diseñado para organizar procesos administrativos y mejorar la visualización de información dentro de la empresa.",
     img: "/assets/undraw_dashboard_p93p.webp",
+    width: 2059,
+    height: 1097,
     link: null,
   },
 ]
@@ -44,6 +51,12 @@ export default function Proyectos() {
               <div className="w-full h-56 bg-white overflow-hidden">
                 <img
                   src={project.img}
+                  srcSet={project.srcSet}
+                  sizes={project.srcSet ? "(min-width: 768px) 360px, calc(100vw - 48px)" : undefined}
+                  width={project.width}
+                  height={project.height}
+                  loading="lazy"
+                  decoding="async"
                   alt={project.titulo}
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />

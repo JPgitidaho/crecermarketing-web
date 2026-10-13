@@ -4,7 +4,12 @@ function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-6 pb-32 pt-32">
       <motion.img
-        src="/assets/hero-marketing.png"
+        src="/assets/hero-marketing-1536.webp"
+        srcSet="/assets/hero-marketing-1024.webp 1024w, /assets/hero-marketing-1536.webp 1536w"
+        sizes="100vw"
+        width="1536"
+        height="1024"
+        fetchPriority="high"
         alt="digital marketing background"
         animate={{ scale: [1, 1.35, 1] }}
         transition={{

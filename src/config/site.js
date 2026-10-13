@@ -13,7 +13,6 @@ export const SOCIAL_LINKS = {
   linkedin: "https://linkedin.com/company/crecermarketing",
   whatsapp: WHATSAPP_URL,
 }
-export const GA_ID = import.meta.env.VITE_GA_ID
 export const BUSINESS_ADDRESS = {
   streetAddress: "Málaga 501",
   addressLocality: "Rancagua",

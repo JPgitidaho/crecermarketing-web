@@ -61,7 +61,7 @@ function BlogPost() {
         title={`${post.title} | Blog | Crecer Marketing`}
         description={post.description}
         canonical={`${SITE_URL}/blog/${post.slug}`}
-        image={post.image}
+        image={post.ogImage ?? post.image}
         type="article"
       />
       <Navbar />

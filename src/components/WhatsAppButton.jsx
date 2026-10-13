@@ -21,6 +21,8 @@ function WhatsAppButton() {
         <img
           src={WHATSAPP_ICON_SRC}
           alt="WhatsApp"
+          width="474"
+          height="474"
           className="h-full w-full object-cover"
           onError={() => setImageError(true)}
         />

@@ -91,7 +91,7 @@ function Blog() {
         title="Blog | Crecer Marketing"
         description="Articulos sobre diseno web, SEO local y marketing digital para negocios que quieren destacar en Rancagua."
         canonical={`${SITE_URL}/blog`}
-        image={featuredPost?.image}
+        image={featuredPost?.ogImage ?? featuredPost?.image}
       />
       <Navbar />
 
