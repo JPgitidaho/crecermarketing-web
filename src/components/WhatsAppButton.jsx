@@ -2,7 +2,7 @@ import { useState } from "react"
 import { MessageCircle } from "lucide-react"
 import { WHATSAPP_URL } from "../config/site"
 
-const WHATSAPP_ICON_SRC = `${import.meta.env.BASE_URL}assets/wsp.jpg`
+const WHATSAPP_ICON_SRC = `${import.meta.env.BASE_URL}assets/wsp-128.webp`
 
 function WhatsAppButton() {
   const [imageError, setImageError] = useState(false)
@@ -21,8 +21,8 @@ function WhatsAppButton() {
         <img
           src={WHATSAPP_ICON_SRC}
           alt="WhatsApp"
-          width="474"
-          height="474"
+          width="128"
+          height="128"
           className="h-full w-full object-cover"
           onError={() => setImageError(true)}
         />

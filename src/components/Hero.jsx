@@ -23,7 +23,7 @@ function Hero() {
       <div className="absolute inset-0 bg-black/55" />
 
       <motion.div
-        initial={{ opacity: 0, y: 40 }}
+        initial={{ opacity: 1, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.9 }}
         className="relative z-10 max-w-4xl mx-auto rounded-3xl border border-white/10 bg-white/5 p-8 text-center shadow-2xl backdrop-blur-xl md:p-16"
@@ -37,7 +37,7 @@ function Hero() {
         </p>
 
         <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
+          initial={{ opacity: 1, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.4 }}
           className="mt-10 flex justify-center"
